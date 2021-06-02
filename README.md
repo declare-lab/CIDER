@@ -1,7 +1,7 @@
 # CIDER
 
 Thank you for your interest!
-Data and the baselines for CIDER will be uploaded here very soon. Stay tune.
+Data and the baselines for CIDER will be uploaded here very soon. Stay tuned.
 
 ## Citation
 
