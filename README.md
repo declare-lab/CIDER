@@ -8,4 +8,6 @@ Data and the baselines for NLI and QA tasks will be uploaded here very soon. Sta
 
 ## Citation
 
+```bash
 CIDER: Commonsense Inference for Dialogue Explanation and Reasoning. Deepanway Ghosal and Pengfei Hong and Siqi Shen and Navonil Majumder and Rada Mihalcea and Soujanya Poria. SIGDIAL 2021.
+```
