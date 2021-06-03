@@ -1,7 +1,10 @@
 # CIDER
 
+
+![Alt text](cider.jpg?raw=true "Annotations in CIDER")
+
 Thank you for your interest!
-Data and the baselines for CIDER will be uploaded here very soon. Stay tuned.
+Data and the baselines for NLI and QA tasks will be uploaded here very soon. Stay tuned.
 
 ## Citation
 
