@@ -1,3 +1,5 @@
+## Steps to replicate the adversarial data generation process
+
 1. Train a spanBert model on `original_data/relations_only/train_and_test.json` by running script 
 ```sh
 python train.py --cuda 2 --fold 1 --model span --epochs 15
