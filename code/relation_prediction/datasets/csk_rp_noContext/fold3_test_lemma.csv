@@ -1,0 +1,879 @@
+id,sentence1,sentence2,label
+0,fake_sent1,fall asleep [SEP] sleepy,causes
+1,fake_sent1,stay late [SEP] sleepy,causes
+2,fake_sent1,get [SEP] morning,happens in
+3,fake_sent1,sleep [SEP] night,happens in
+4,fake_sent1,sleepy [SEP] morning,happens in
+5,fake_sent1,haircut [SEP] sideburn,has property
+6,fake_sent1,haircut [SEP] shave,happens before
+7,fake_sent1,haircut [SEP] tilt head,has prerequisite
+8,fake_sent1,deposit [SEP] fill deposit form,has prerequisite
+9,fake_sent1,deposit [SEP] bankbook,has prerequisite
+10,fake_sent1,deposit [SEP] cash,has prerequisite
+11,fake_sent1,deposit [SEP] bank account,at location
+12,fake_sent1,calm [SEP] commotion,antonym
+13,fake_sent1,board pass [SEP] passport,distinct from
+14,fake_sent1,board plane [SEP] board pass,has prerequisite
+15,fake_sent1,let pass [SEP] board pass,has prerequisite
+16,fake_sent1,board pass [SEP] board plane,used for
+17,fake_sent1,picture crane pine tree [SEP] flower - - bird painting,is a
+18,fake_sent1,paint famous chinese painter King Dynasty [SEP] thousand dollar,causes
+19,fake_sent1,thousand dollar [SEP] lot money,is a
+20,fake_sent1,lily valley [SEP] look like little bell,has property
+21,fake_sent1,rose [SEP] beautiful,has property
+22,fake_sent1,wedding [SEP] anniversary,happens before
+23,fake_sent1,flower [SEP] bouquet,at location
+24,fake_sent1,anniversary [SEP] flower,causes
+25,fake_sent1,lily valley [SEP] short,has property
+26,fake_sent1,lily valley [SEP] white,has property
+27,fake_sent1,anniversary [SEP] rose,causes
+28,fake_sent1,will remember [SEP] forgetful,similar to
+29,fake_sent1,forgetful [SEP] bad memory,implies
+30,fake_sent1,will remember [SEP] bad memory,implies
+31,fake_sent1,detective story [SEP] exciting,has property
+32,fake_sent1,eighty - seven [SEP] old age,implies
+33,fake_sent1,bad memory [SEP] old age,happens in
+34,fake_sent1,like [SEP] fond,similar to
+35,fake_sent1,opera [SEP] expensive,has property
+36,fake_sent1,opera [SEP] singe language,has property
+37,fake_sent1,singe language [SEP] get nerve,causes
+38,fake_sent1,expensive [SEP] like opera,causes
+39,fake_sent1,singe language [SEP] like opera,causes
+40,fake_sent1,robbery [SEP] see thing happen,happens simultaneously
+41,fake_sent1,gun [SEP] gunshot kill injure person,has property
+42,fake_sent1,gunshot kill injure person [SEP] get scared,causes
+43,fake_sent1,robbery [SEP] bank,at location
+44,fake_sent1,robbery [SEP] get money try leave,motivated by goal
+45,fake_sent1,guy gun [SEP] robbery,causes
+46,fake_sent1,get money try leave [SEP] cop arrest,causes
+47,fake_sent1,deserve promotion [SEP] excited,causes
+48,fake_sent1,get promotion work [SEP] good news,is a
+49,fake_sent1,get promotion work [SEP] happy,causes
+50,fake_sent1,congratulation promotion [SEP] get promotion work,social rule
+51,fake_sent1,blackout [SEP] night,happens in
+52,fake_sent1,blackout [SEP] light,synonym
+53,fake_sent1,catch [SEP] evidence,has prerequisite
+54,fake_sent1,loot [SEP] store,at location
+55,fake_sent1,people decide loot [SEP] store break,causes
+56,fake_sent1,people decide loot [SEP] looter catch,causes desire
+57,fake_sent1,store break [SEP] looter catch,causes desire
+58,fake_sent1,take advantage blackout [SEP] catch,motivated by goal
+59,fake_sent1,blackout [SEP] loot,used for
+60,fake_sent1,loot [SEP] night,happens in
+61,fake_sent1,loot [SEP] blackout,happens in
+62,fake_sent1,study [SEP] take write test,happens before
+63,fake_sent1,pay permit [SEP] pay,causes
+64,fake_sent1,pretty hard [SEP] pass time,causes
+65,fake_sent1,do well [SEP] pass time,antonym
+66,fake_sent1,test [SEP] skip lot thing book,has property
+67,fake_sent1,test [SEP] study,has prerequisite
+68,fake_sent1,study [SEP] do well,motivated by goal
+69,fake_sent1,loan [SEP] interest rate,has property
+70,fake_sent1,loan [SEP] school,motivated by goal
+71,fake_sent1,loan [SEP] fill application,has prerequisite
+72,fake_sent1,need borrow money [SEP] private educational loan,causes
+73,fake_sent1,go out [SEP] bite eat catch movie,motivated by goal
+74,fake_sent1,bite eat catch movie [SEP] go out,causes desire
+75,fake_sent1,bite eat catch movie [SEP] dinner movie,synonym
+76,fake_sent1,friend [SEP] time,implies
+77,fake_sent1,didn ’ t [SEP] see long time,causes
+78,fake_sent1,stay home [SEP] see long time,causes
+79,fake_sent1,didn ’ t [SEP] look unhappy,causes
+80,fake_sent1,stay home [SEP] look unhappy,causes
+81,fake_sent1,feel lonely city [SEP] look unhappy,causes
+82,fake_sent1,miss family [SEP] look unhappy,causes
+83,fake_sent1,feel lonely city [SEP] miss family,similar to
+84,fake_sent1,time [SEP] stay accompany,motivated by goal
+85,fake_sent1,better emotional [SEP] stay accompany,causes desire
+86,fake_sent1,store [SEP] work,has prerequisite
+87,fake_sent1,work [SEP] store,happens before
+88,fake_sent1,no.5 bus [SEP] bus crowd,obstructed by
+89,fake_sent1,bike [SEP] bike break,obstructed by
+90,fake_sent1,bus crowd [SEP] bike,causes desire
+91,fake_sent1,sister new bike [SEP] store,used for
+92,fake_sent1,like color [SEP] look terrific,similar to
+93,fake_sent1,try lot dress [SEP] take time,causes
+94,fake_sent1,traffic heavy [SEP] friend arrive late,causes
+95,fake_sent1,friend arrive late [SEP] go late tonight party,causes
+96,fake_sent1,traffic heavy [SEP] seven o'clock,happens in
+97,fake_sent1,love music [SEP] record,causes desire
+98,fake_sent1,record [SEP] music shop,at location
+99,fake_sent1,record [SEP] choose,has prerequisite
+100,fake_sent1,like sweet thing [SEP] buy nice box chocolate,suppresses desire
+101,fake_sent1,buy present [SEP] birthday,social rule
+102,fake_sent1,buy nice box chocolate [SEP] buy present,manner of
+103,fake_sent1,flower [SEP] buy present,manner of
+104,fake_sent1,chocolate better receive flower present birthday [SEP] flower lovely . think well buy nice box chocolate,causes
+105,fake_sent1,nice sunny [SEP] beautiful day,implies
+106,fake_sent1,summer [SEP] warm,has property
+107,fake_sent1,autumn [SEP] hot cold,has property
+108,fake_sent1,autumn [SEP] sky clear blue,has property
+109,fake_sent1,picnic [SEP] weekend,happens in
+110,fake_sent1,picnic [SEP] rain,obstructed by
+111,fake_sent1,picnic [SEP] fine weather,causes desire
+112,fake_sent1,autumn [SEP] good time picnic,has property
+113,fake_sent1,rain week [SEP] go rain,antonym
+114,fake_sent1,parent come visit [SEP] day,causes desire
+115,fake_sent1,UK [SEP] expect,causes desire
+116,fake_sent1,speak English [SEP] expect,causes desire
+117,fake_sent1,UK [SEP] difficulty move,causes
+118,fake_sent1,speak English [SEP] difficulty move,causes
+119,fake_sent1,difficulty move [SEP] expect,causes desire
+120,fake_sent1,maybe day [SEP] catch work material,happens before
+121,fake_sent1,maybe day [SEP] catch work material,motivated by goal
+122,fake_sent1,cycling [SEP] leg exercise,manner of
+123,fake_sent1,add leg exercise [SEP] arm work,causes
+124,fake_sent1,arm exercise [SEP] raise blood pressure,causes
+125,fake_sent1,doctor strongly encouraging arm exercise [SEP] physically healthy,motivated by goal
+126,fake_sent1,arm exercise [SEP] physically healthy,causes
+127,fake_sent1,arm exercise [SEP] physically healthy,capable of
+128,fake_sent1,raise blood pressure [SEP] add leg exercise,obstructed by
+129,fake_sent1,add leg exercise [SEP] good chance lose weight,causes
+130,fake_sent1,arm work [SEP] add leg exercise,obstructed by
+131,fake_sent1,leg exercise [SEP] lose weight,capable of
+132,fake_sent1,miss flight [SEP] skip head line,causes desire
+133,fake_sent1,skip head line [SEP] catch flight time,motivated by goal
+134,fake_sent1,catch flight time [SEP] run late airport,obstructed by
+135,fake_sent1,run late airport [SEP] sure plane,causes desire
+136,fake_sent1,sit traffic [SEP] run late airport,causes
+137,fake_sent1,accident [SEP] traffic congestion,causes
+138,fake_sent1,traffic congestion [SEP] sit traffic,implies
+139,fake_sent1,sit traffic [SEP] stress,causes
+140,fake_sent1,reach destination time [SEP] want later flight !,causes desire
+141,fake_sent1,catch flight time [SEP] reach destination time,motivated by goal
+142,fake_sent1,reach destination time [SEP] catch flight time,causes desire
+143,fake_sent1,reach destination time [SEP] catch flight time,has prerequisite
+144,fake_sent1,reach destination time [SEP] miss flight,obstructed by
+145,fake_sent1,catch flight time [SEP] want later flight !,synonym
+146,fake_sent1,catch flight time [SEP] reach airport time,has prerequisite
+147,fake_sent1,reach airport time [SEP] sit traffic,obstructed by
+148,fake_sent1,turn page minute [SEP] read,implies
+149,fake_sent1,hold interest [SEP] read,causes
+150,fake_sent1,hold interest [SEP] turn page minute,causes
+151,fake_sent1,get through it [SEP] drift away,obstructed by
+152,fake_sent1,read [SEP] get through it,synonym
+153,fake_sent1,read [SEP] drift away,obstructed by
+154,fake_sent1,job prospect [SEP] degree philosophy,obstructed by
+155,fake_sent1,degree philosophy [SEP] job prospect pretty limited,causes
+156,fake_sent1,quit [SEP] disappointed,causes
+157,fake_sent1,want philosophy English [SEP] start like course,causes
+158,fake_sent1,get through it [SEP] seminar,motivated by goal
+159,fake_sent1,seminar [SEP] get through it,causes desire
+160,fake_sent1,record [SEP] bag,at location
+161,fake_sent1,sit bag [SEP] break record,causes
+162,fake_sent1,break [SEP] look record,causes desire
+163,fake_sent1,break [SEP] pound,causes desire
+164,fake_sent1,sell music record [SEP] look,causes desire
+165,fake_sent1,sell music record [SEP] look,has prerequisite
+166,fake_sent1,long line [SEP] half hour earlier,causes desire
+167,fake_sent1,half hour earlier [SEP] stick queue,motivated by goal
+168,fake_sent1,opening [SEP] long line,causes
+169,fake_sent1,invite opening [SEP] free tomorrow night,has prerequisite
+170,fake_sent1,opening [SEP] night,happens in
+171,fake_sent1,invite opening [SEP] movie ticket,has prerequisite
+172,fake_sent1,miss countryside [SEP] come visit,causes desire
+173,fake_sent1,move London [SEP] invite stay,causes desire
+174,fake_sent1,settle [SEP] invite stay,happens before
+175,fake_sent1,think happy city [SEP] think,causes desire
+176,fake_sent1,move London [SEP] work,motivated by goal
+177,fake_sent1,move London [SEP] find job,motivated by goal
+178,fake_sent1,find job [SEP] move London,causes desire
+179,fake_sent1,work [SEP] move London,causes desire
+180,fake_sent1,cheap [SEP] find flat share somebody,causes desire
+181,fake_sent1,find flat share somebody [SEP] cheap,motivated by goal
+182,fake_sent1,work [SEP] find job,synonym
+183,fake_sent1,move London [SEP] go live,causes desire
+184,fake_sent1,weather warm [SEP] exercise,causes desire
+185,fake_sent1,exercise [SEP] take bus time,obstructed by
+186,fake_sent1,look bike [SEP] exercise,motivated by goal
+187,fake_sent1,bike [SEP] exercise,used for
+188,fake_sent1,look bike [SEP] forth work,motivated by goal
+189,fake_sent1,exercise [SEP] look bike,causes desire
+190,fake_sent1,hill way [SEP] comfort,causes desire
+191,fake_sent1,forth work [SEP] comfort,causes desire
+192,fake_sent1,look bike [SEP] right height,has prerequisite
+193,fake_sent1,forth work [SEP] exercise,causes
+194,fake_sent1,weather warm [SEP] look bike,causes desire
+195,fake_sent1,passport steal [SEP] visit police station,causes desire
+196,fake_sent1,passport steal [SEP] report passport theft,causes desire
+197,fake_sent1,visit police station [SEP] report passport theft,motivated by goal
+198,fake_sent1,bag open [SEP] bag fasten,antonym
+199,fake_sent1,leave souvenir shop [SEP] passport steal,happens before
+200,fake_sent1,rush shop [SEP] find purse passport,motivated by goal
+201,fake_sent1,look outside shop [SEP] find purse passport,motivated by goal
+202,fake_sent1,bag open [SEP] search bag,causes desire
+203,fake_sent1,find [SEP] passport steal,implies
+204,fake_sent1,puppy cost money [SEP] think,causes
+205,fake_sent1,puppy need shot [SEP] puppy cost money,implies
+206,fake_sent1,puppy need shot [SEP] wo sick,causes
+207,fake_sent1,mother birthday [SEP] buy,causes desire
+208,fake_sent1,mother birthday [SEP] day tomorrow,happens in
+209,fake_sent1,mother birthday [SEP] mom beautiful dress,causes desire
+210,fake_sent1,buy dvd player [SEP] saturday,happens in
+211,fake_sent1,dvd player [SEP] remote,has a
+212,fake_sent1,remote [SEP] battery,has a
+213,fake_sent1,lack battery [SEP] remote work,causes
+214,fake_sent1,change function display [SEP] remote work,implies
+215,fake_sent1,fast forward ' m play dvd [SEP] remote work,implies
+216,fake_sent1,work properly [SEP] want exchange return,causes desire
+217,fake_sent1,Mocha [SEP] type bean,is a
+218,fake_sent1,mandheling [SEP] type bean,is a
+219,fake_sent1,Santos [SEP] type bean,is a
+220,fake_sent1,smell [SEP] tell,causes
+221,fake_sent1,read name package [SEP] tell,causes
+222,fake_sent1,roast different type bean [SEP] special blend,is a
+223,fake_sent1,step [SEP] coffee - making,happens in
+224,fake_sent1,’ s long actually forget [SEP] goodness,causes
+225,fake_sent1,calendar [SEP] meeting,used for
+226,fake_sent1,leave pm [SEP] join conference today,happens before
+227,fake_sent1,tv advertising [SEP] advertising budget,has prerequisite
+228,fake_sent1,ambulance [SEP] hurt,used for
+229,fake_sent1,shake little [SEP] ok,is a
+230,fake_sent1,salesman [SEP] do,is a
+231,fake_sent1,Personnel Department [SEP] do,is a
+232,fake_sent1,sale [SEP] cost lot,discourages
+233,fake_sent1,tag [SEP] sale,motivated by goal
+234,fake_sent1,bargain [SEP] sale,has prerequisite
+235,fake_sent1,color go trouser perfectly [SEP] look wonderful,is a
+236,fake_sent1,bargain hunter [SEP] get sale mall,has property
+237,fake_sent1,breathtaking [SEP] worth visit,causes
+238,fake_sent1,Saturday [SEP] class,doesn't imply
+239,fake_sent1,Saturday [SEP] school,implies
+240,fake_sent1,get off [SEP] right stop,at location
+241,fake_sent1,right stop [SEP] know,doesn't have property
+242,fake_sent1,know [SEP] get wrong bus station,implies
+243,fake_sent1,bus early [SEP] get wrong bus station,causes
+244,fake_sent1,get wrong bus station [SEP] walk,causes
+245,fake_sent1,get wrong bus station [SEP] wait bus come,social rule
+246,fake_sent1,wife understand [SEP] happy married man,causes
+247,fake_sent1,wear pant [SEP] control,is a
+248,fake_sent1,lucky [SEP] happy married man,has property
+249,fake_sent1,wife understand [SEP] lucky,is a
+250,fake_sent1,fever [SEP] home plenty rest,social rule
+251,fake_sent1,appointment [SEP] family physician,has prerequisite
+252,fake_sent1,big fever [SEP] family physician,causes
+253,fake_sent1,reservation [SEP] theater,motivated by goal
+254,fake_sent1,show [SEP] theater,at location
+255,fake_sent1,trip [SEP] jazz club,has subevent
+256,fake_sent1,trip [SEP] riverboat tour,has subevent
+257,fake_sent1,trip [SEP] theater,has subevent
+258,fake_sent1,dancing party [SEP] free,has prerequisite
+259,fake_sent1,lot [SEP] occasionally,antonym
+260,fake_sent1,rumba [SEP] dance,is a
+261,fake_sent1,waltz [SEP] dance,is a
+262,fake_sent1,samba [SEP] dance,is a
+263,fake_sent1,fast [SEP] like,causes
+264,fake_sent1,dancing party [SEP] at six,happens in
+265,fake_sent1,go home [SEP] work time,implies
+266,fake_sent1,work time [SEP] work late,implies
+267,fake_sent1,I'm not [SEP] work late,implies
+268,fake_sent1,look apartment [SEP] find place,synonym
+269,fake_sent1,suburb [SEP] near office,implies
+270,fake_sent1,near office [SEP] long trip work,causes
+271,fake_sent1,buy newspaper check classified ad [SEP] find apartment,manner of
+272,fake_sent1,find place [SEP] expensive,obstructed by
+273,fake_sent1,"party go dj , food , drink [SEP] fun",has property
+274,fake_sent1,refrigerator [SEP] r,at location
+275,fake_sent1,take a see [SEP] key,has prerequisite
+276,fake_sent1,new [SEP] yea,is a
+277,fake_sent1,transfer [SEP] leave,has subevent
+278,fake_sent1,bachelor degree [SEP] school,at location
+279,fake_sent1,pcc [SEP] school,is a
+280,fake_sent1,rob [SEP] mug,has subevent
+281,fake_sent1,rob [SEP] hurt,causes
+282,fake_sent1,rob [SEP] steal,has subevent
+283,fake_sent1,police station [SEP] rob,social rule
+284,fake_sent1,move [SEP] get hell company,is a
+285,fake_sent1,position [SEP] recommend,has prerequisite
+286,fake_sent1,recommend [SEP] help,is a
+287,fake_sent1,help [SEP] effort,is a
+288,fake_sent1,cal [SEP] help,used for
+289,fake_sent1,cal [SEP] help,happens before
+290,fake_sent1,recommend [SEP] chance suitable,motivated by goal
+291,fake_sent1,you [SEP] chance,desires
+292,fake_sent1,learn culture nation [SEP] learn language,motivated by goal
+293,fake_sent1,learn culture nation [SEP] read lot book,manner of
+294,fake_sent1,hard [SEP] interesting,antonym
+295,fake_sent1,fail english exam [SEP] stink,has property
+296,fake_sent1,pull leg [SEP] fool,similar to
+297,fake_sent1,fail english exam [SEP] high mark exam,antonym
+298,fake_sent1,forget day [SEP] fool,causes
+299,fake_sent1,forget day [SEP] pull leg,causes
+300,fake_sent1,fool people [SEP] April Fool,social rule
+301,fake_sent1,joke [SEP] April Fool,social rule
+302,fake_sent1,fool [SEP] joke,happens in
+303,fake_sent1,joke [SEP] serious,antonym
+304,fake_sent1,English [SEP] speak French day,causes
+305,fake_sent1,English [SEP] language school,at location
+306,fake_sent1,speak French day [SEP] language school,at location
+307,fake_sent1,language school [SEP] speak french,causes
+308,fake_sent1,learn new skill [SEP] qualify good job,causes
+309,fake_sent1,speak french [SEP] learn new skill,motivated by goal
+310,fake_sent1,prepare [SEP] interview,motivated by goal
+311,fake_sent1,suit [SEP] interview,used for
+312,fake_sent1,shirt [SEP] interview,used for
+313,fake_sent1,leather shoe [SEP] interview,used for
+314,fake_sent1,prepare [SEP] buy expensive suit,manner of
+315,fake_sent1,prepare [SEP] dress leather shoe,manner of
+316,fake_sent1,collect unemployment benefit [SEP] work,has prerequisite
+317,fake_sent1,cut hour [SEP] work lot few hour,causes
+318,fake_sent1,work [SEP] pay,causes
+319,fake_sent1,lay [SEP] pay,causes
+320,fake_sent1,work lot few hour [SEP] pay,causes
+321,fake_sent1,collect unemployment benefit [SEP] lay,has prerequisite
+322,fake_sent1,collect unemployment benefit [SEP] work lot few hour,has prerequisite
+323,fake_sent1,collect benefit [SEP] pay unemployment insurance,has prerequisite
+324,fake_sent1,pay unemployment insurance [SEP] collect benefit,causes
+325,fake_sent1,unemployment insurance deduct paycheck [SEP] pay unemployment insurance,manner of
+326,fake_sent1,unemployment insurance deduct paycheck [SEP] pay unemployment insurance,implies
+327,fake_sent1,marry [SEP] single,antonym
+328,fake_sent1,postman [SEP] rich,has property
+329,fake_sent1,rich man [SEP] fortune,has property
+330,fake_sent1,pass exam [SEP] pet,causes
+331,fake_sent1,pet [SEP] responsible feed cleaning,has prerequisite
+332,fake_sent1,feed [SEP] cost,has prerequisite
+333,fake_sent1,care [SEP] cost,has prerequisite
+334,fake_sent1,dictionary [SEP] word mean,used for
+335,fake_sent1,tell mean [SEP] word mean,used for
+336,fake_sent1,learn [SEP] read,causes
+337,fake_sent1,lazy [SEP] want look dictionary,causes
+338,fake_sent1,want look dictionary [SEP] tell mean,causes
+339,fake_sent1,lazy [SEP] tell mean,causes
+340,fake_sent1,"Mommy , dinner [SEP] dinner",motivated by goal
+341,fake_sent1,hold soup [SEP] shape strange,obstructed by
+342,fake_sent1,bowl [SEP] hold soup,used for
+343,fake_sent1,drawer [SEP] bowl,at location
+344,fake_sent1,smell sweet [SEP] mom go to love,causes
+345,fake_sent1,soup [SEP] smell sweet,has property
+346,fake_sent1,Kinda busy [SEP] look,causes
+347,fake_sent1,beautiful city [SEP] climate pleasant,has property
+348,fake_sent1,beautiful city [SEP] comfortable live,has property
+349,fake_sent1,live city long [SEP] love,causes
+350,fake_sent1,clean room [SEP] mood,obstructed by
+351,fake_sent1,clean room [SEP] feel depressed,obstructed by
+352,fake_sent1,mood [SEP] feel depressed,similar to
+353,fake_sent1,speak ill [SEP] feel depressed,causes
+354,fake_sent1,speak ill [SEP] let -,causes
+355,fake_sent1,let - [SEP] feel depressed,similar to
+356,fake_sent1,let - [SEP] mood,similar to
+357,fake_sent1,speak ill [SEP] disappointed,causes
+358,fake_sent1,disappointed [SEP] forgive mistake,social rule
+359,fake_sent1,lunch [SEP] diana,causes
+360,fake_sent1,diana [SEP] message,social rule
+361,fake_sent1,honest answer [SEP] bad score,implies
+362,fake_sent1,bad score [SEP] fail,implies
+363,fake_sent1,fail [SEP] retest,social rule
+364,fake_sent1,know drive [SEP] bad score,causes
+365,fake_sent1,problem [SEP] like,causes
+366,fake_sent1,pretty new [SEP] ready open,causes
+367,fake_sent1,pretty new [SEP] problem,is a
+368,fake_sent1,food exciting [SEP] problem,is a
+369,fake_sent1,restaurant [SEP] service,has property
+370,fake_sent1,restaurant [SEP] food,has property
+371,fake_sent1,portable tv [SEP] screen,has a
+372,fake_sent1,news [SEP] current affair,has a
+373,fake_sent1,tv [SEP] commercial,has a
+374,fake_sent1,tv station [SEP] money commercial,desires
+375,fake_sent1,tv [SEP] transmission satellite signal,has prerequisite
+376,fake_sent1,terrible quarrel [SEP] look depressed today,causes
+377,fake_sent1,think laugh [SEP] angry,causes
+378,fake_sent1,angry [SEP] terrible quarrel,causes
+379,fake_sent1,think laugh [SEP] terrible quarrel,causes
+380,fake_sent1,misunderstood [SEP] know suffer,causes
+381,fake_sent1,yesterday [SEP] today,happens before
+382,fake_sent1,know suffer misunderstood . easy [SEP] comfort,is a
+383,fake_sent1,comfort [SEP] suffer,social rule
+384,fake_sent1,easy [SEP] suffer,social rule
+385,fake_sent1,stereo [SEP] were,causes
+386,fake_sent1,were [SEP] last,causes
+387,fake_sent1,stereo [SEP] last,causes
+388,fake_sent1,get hour quarter [SEP] late,implies
+389,fake_sent1,flight [SEP] late,has prerequisite
+390,fake_sent1,flight [SEP] ticket,has prerequisite
+391,fake_sent1,flight [SEP] traveler check,has prerequisite
+392,fake_sent1,flight [SEP] passport,has prerequisite
+393,fake_sent1,birthday [SEP] sleep,causes
+394,fake_sent1,sleep [SEP] little tired,causes
+395,fake_sent1,party [SEP] birthday,happens in
+396,fake_sent1,party [SEP] uncle house,at location
+397,fake_sent1,home late [SEP] sleep,causes
+398,fake_sent1,party [SEP] home late,causes
+399,fake_sent1,type literature paper [SEP] sleep,causes
+400,fake_sent1,thing morning [SEP] type literature paper,causes
+401,fake_sent1,professor say accept late paper [SEP] thing morning,causes
+402,fake_sent1,professor say accept late paper [SEP] type literature paper,causes
+403,fake_sent1,today [SEP] professor say accept late paper,obstructed by
+404,fake_sent1,little tired [SEP] go home bed,causes
+405,fake_sent1,repair good thecharge reasonable [SEP] place recommend,causes
+406,fake_sent1,find [SEP] place recommend,causes
+407,fake_sent1,place [SEP] find,causes
+408,fake_sent1,tell right railroad bridge [SEP] miss,causes
+409,fake_sent1,second right . yes . think [SEP] find,causes
+410,fake_sent1,bad memory [SEP] find,causes
+411,fake_sent1,wait minute [SEP] remember wrongly,implies
+412,fake_sent1,bad memory [SEP] remember wrongly,causes
+413,fake_sent1,second class ticket [SEP] class ticket leave,obstructed by
+414,fake_sent1,like flight [SEP] sell ticket,obstructed by
+415,fake_sent1,machine [SEP] sell ticket,used for
+416,fake_sent1,plane [SEP] tell plane Berlin leave,causes
+417,fake_sent1,tell plane Berlin leave [SEP] gate number,has prerequisite
+418,fake_sent1,gate number [SEP] hall left,at location
+419,fake_sent1,soup [SEP] wrong,causes
+420,fake_sent1,see insect [SEP] soup,causes
+421,fake_sent1,free lunch [SEP] will charge soup,is a
+422,fake_sent1,hope come [SEP] I'll do that,causes
+423,fake_sent1,bring bowl [SEP] bowl,causes
+424,fake_sent1,soup [SEP] bring bowl,causes
+425,fake_sent1,insect [SEP] noodle,at location
+426,fake_sent1,sorry happen [SEP] will charge soup,causes
+427,fake_sent1,soup [SEP] sorry happen,causes
+428,fake_sent1,soup [SEP] will charge soup,causes
+429,fake_sent1,wait [SEP] buy today film ticket,motivated by goal
+430,fake_sent1,young couple wait hour [SEP] give leave,causes
+431,fake_sent1,people sell ticket afternoon [SEP] delay,causes
+432,fake_sent1,people look forward long time [SEP] delay,causes
+433,fake_sent1,long [SEP] 45 minute,is a
+434,fake_sent1,rain [SEP] cool,causes
+435,fake_sent1,remember hot dry March [SEP] unusual,implies
+436,fake_sent1,notice . 7 bus pass [SEP] wait . 7 bus,motivated by goal
+437,fake_sent1,mix - [SEP] no,causes
+438,fake_sent1,go airport morning [SEP] mix -,causes
+439,fake_sent1,get wrong information [SEP] go airport morning,causes
+440,fake_sent1,change arrival time [SEP] ask workmate tell driver,causes
+441,fake_sent1,capture gang robber [SEP] new,is a
+442,fake_sent1,half hour [SEP] read,causes
+443,fake_sent1,half hour [SEP] time,implies
+444,fake_sent1,time [SEP] read,causes
+445,fake_sent1,long trip [SEP] comfortable,has prerequisite
+446,fake_sent1,snack [SEP] comfortable,used for
+447,fake_sent1,pillow [SEP] comfortable,used for
+448,fake_sent1,book read [SEP] comfortable,used for
+449,fake_sent1,excited trip [SEP] ' m fine,causes
+450,fake_sent1,wait grandma [SEP] excited trip,causes
+451,fake_sent1,spring festival [SEP] dumpling,has a
+452,fake_sent1,sister busy college work [SEP] year,causes
+453,fake_sent1,' m [SEP] eat bite,causes
+454,fake_sent1,food taste bad [SEP] eat bite,causes
+455,fake_sent1,food taste bad [SEP] ' m,causes
+456,fake_sent1,lot authentic material [SEP] tough,causes
+457,fake_sent1,tape conversation friend [SEP] use class,motivated by goal
+458,fake_sent1,watch kid carefully [SEP] pool,social rule
+459,fake_sent1,lot water get lung [SEP] die,causes
+460,fake_sent1,help box [SEP] promise help tidy house,has prerequisite
+461,fake_sent1,oversleep [SEP] i did n't go,causes
+462,fake_sent1,i did n't go [SEP] borrow note professor freeman lecture today,causes
+463,fake_sent1,sick morning [SEP] i was n't there either,causes
+464,fake_sent1,borrow note professor freeman lecture today [SEP] eric note,motivated by goal
+465,fake_sent1,starve [SEP] eat,causes
+466,fake_sent1,chinese food wong [SEP] take out,is a
+467,fake_sent1,frozen pizza [SEP] eat,used for
+468,fake_sent1,starve [SEP] take out,causes desire
+469,fake_sent1,come change pipe [SEP] tell come,social rule
+470,fake_sent1,come change pipe [SEP] door wide open,causes
+471,fake_sent1,time [SEP] unhappy,causes
+472,fake_sent1,pat come repair break light [SEP] walk find,causes
+473,fake_sent1,walk find [SEP] heart attack,causes
+474,fake_sent1,tea set [SEP] supermarket,at location
+475,fake_sent1,tea set [SEP] teahouse,at location
+476,fake_sent1,' m sit [SEP] thing,causes
+477,fake_sent1,start replace fruit milk vegetable [SEP] lose lot weight,causes
+478,fake_sent1,lot exercise [SEP] lose lot weight,causes
+479,fake_sent1,lose lot weight [SEP] great,causes
+480,fake_sent1,lose lot weight [SEP] fast food day,obstructed by
+481,fake_sent1,fast food day [SEP] start replace fruit milk vegetable,happens before
+482,fake_sent1,lot exercise [SEP] start replace fruit milk vegetable,happens simultaneously
+483,fake_sent1,snow [SEP] traffic move slowly,causes
+484,fake_sent1,traffic move slowly [SEP] wait dinner,causes
+485,fake_sent1,- time job [SEP] student,implies
+486,fake_sent1,work overtime friday [SEP] wo able,causes
+487,fake_sent1,dinner [SEP] help roommate clean apartment,obstructed by
+488,fake_sent1,go with me [SEP] ' m planning finish composition,obstructed by
+489,fake_sent1,sign contract [SEP] let know come,has prerequisite
+490,fake_sent1,hurry order [SEP] ' m shanghai business,obstructed by
+491,fake_sent1,find window break piece [SEP] terrible morning,causes
+492,fake_sent1,evening [SEP] weather nice,has prerequisite
+493,fake_sent1,nervous [SEP] mistake,causes
+494,fake_sent1,concert [SEP] nervous,causes
+495,fake_sent1,brown color hate [SEP] pass,causes
+496,fake_sent1,ring [SEP] special,has prerequisite
+497,fake_sent1,look cd player [SEP] buy cd player,causes desire
+498,fake_sent1,buy cd player [SEP] i already have one,suppresses desire
+499,fake_sent1,handle damage [SEP] buy cd player,suppresses desire
+500,fake_sent1,make list food drink [SEP] party,motivated by goal
+501,fake_sent1,party [SEP] Valentine ' s Day Party,is a
+502,fake_sent1,food buy [SEP] party,motivated by goal
+503,fake_sent1,make list food drink [SEP] Valentine ' s Day Party,motivated by goal
+504,fake_sent1,food buy [SEP] Valentine ' s Day Party,motivated by goal
+505,fake_sent1,run grocery store [SEP] fight crowd,obstructed by
+506,fake_sent1,food milk [SEP] run grocery store,causes desire
+507,fake_sent1,run grocery store [SEP] food milk,motivated by goal
+508,fake_sent1,nice stuff [SEP] expensive,implies
+509,fake_sent1,apple [SEP] fruit,is a
+510,fake_sent1,grape [SEP] fruit,is a
+511,fake_sent1,green apple [SEP] apple,is a
+512,fake_sent1,green apple [SEP] fruit,is a
+513,fake_sent1,green apple [SEP] sour,has property
+514,fake_sent1,red apple [SEP] green apple,distinct from
+515,fake_sent1,red apple [SEP] sweet,has property
+516,fake_sent1,spend money [SEP] figure budget,causes desire
+517,fake_sent1,figure budget [SEP] spend money,implies
+518,fake_sent1,figure budget [SEP] spend money,motivated by goal
+519,fake_sent1,save rest [SEP] figure budget,causes desire
+520,fake_sent1,save rest [SEP] pay bill,motivated by goal
+521,fake_sent1,figure budget [SEP] save rest,motivated by goal
+522,fake_sent1,collect stamp [SEP] hobby,is a
+523,fake_sent1,collect stamp [SEP] expensive,has property
+524,fake_sent1,play chess [SEP] hobby,is a
+525,fake_sent1,play basketball [SEP] hobby,is a
+526,fake_sent1,play basketball [SEP] fun,motivated by goal
+527,fake_sent1,talk [SEP] husband hate cold weather,motivated by goal
+528,fake_sent1,shopping [SEP] Oxford Street,at location
+529,fake_sent1,Hyde Park [SEP] Oxford Street,located near
+530,fake_sent1,West end [SEP] visit museum,motivated by goal
+531,fake_sent1,West end [SEP] art gallery,motivated by goal
+532,fake_sent1,West end [SEP] Buckingham Palace,motivated by goal
+533,fake_sent1,West end [SEP] shopping,motivated by goal
+534,fake_sent1,West end [SEP] theater,motivated by goal
+535,fake_sent1,exhibition [SEP] like exhibition,implies
+536,fake_sent1,folk concert [SEP] like folk music,obstructed by
+537,fake_sent1,opera [SEP] heavy,has property
+538,fake_sent1,Madonna [SEP] great dancer,has property
+539,fake_sent1,pop concert [SEP] great dancer,implies
+540,fake_sent1,Mr. Li [SEP] talk,desires
+541,fake_sent1,look [SEP] talk,motivated by goal
+542,fake_sent1,talk [SEP] choose job,happens before
+543,fake_sent1,choose job [SEP] talk,has prerequisite
+544,fake_sent1,job [SEP] care machine,is a
+545,fake_sent1,know [SEP] use,has prerequisite
+546,fake_sent1,job [SEP] Manchester,at location
+547,fake_sent1,care machine [SEP] know,obstructed by
+548,fake_sent1,know [SEP] type man,implies
+549,fake_sent1,quick learn [SEP] try,causes desire
+550,fake_sent1,check [SEP] departure,happens before
+551,fake_sent1,check [SEP] pick ticket,has prerequisite
+552,fake_sent1,pick ticket [SEP] check,happens before
+553,fake_sent1,pick ticket [SEP] book return ticket,has prerequisite
+554,fake_sent1,book return ticket [SEP] pick ticket,happens before
+555,fake_sent1,check [SEP] airport,at location
+556,fake_sent1,go beach [SEP] fun,has property
+557,fake_sent1,go beach [SEP] watch sea bird wildlife,motivated by goal
+558,fake_sent1,watch sea bird wildlife [SEP] go beach,has prerequisite
+559,fake_sent1,meet [SEP] go beach,happens before
+560,fake_sent1,play hard [SEP] Huasheng Team,causes
+561,fake_sent1,Huasheng Team [SEP] get good feeling,causes
+562,fake_sent1,get good feeling [SEP] Huasheng Team,implies
+563,fake_sent1,cheeseburger [SEP] coffee shop,at location
+564,fake_sent1,french frie [SEP] coffee shop,at location
+565,fake_sent1,coffee shop [SEP] lunch,at location
+566,fake_sent1,nice salad [SEP] coffee shop,at location
+567,fake_sent1,bring lunch home [SEP] eat desk,happens before
+568,fake_sent1,lunch coffee shop [SEP] bring lunch home,obstructed by
+569,fake_sent1,bring lunch home [SEP] lunch,motivated by goal
+570,fake_sent1,finish project [SEP] hand,happens before
+571,fake_sent1,hand [SEP] finish project,has prerequisite
+572,fake_sent1,find book [SEP] great,has property
+573,fake_sent1,photocopy [SEP] great,implies
+574,fake_sent1,copy page [SEP] find book,has prerequisite
+575,fake_sent1,copy page [SEP] finish project,motivated by goal
+576,fake_sent1,copy page [SEP] finish project,manner of
+577,fake_sent1,copy page [SEP] write list book .,obstructed by
+578,fake_sent1,write project [SEP] finish project,causes
+579,fake_sent1,write project [SEP] finish project,manner of
+580,fake_sent1,write list book . [SEP] write project,causes desire
+581,fake_sent1,wait bus [SEP] go station,motivated by goal
+582,fake_sent1,go station [SEP] meet sister,motivated by goal
+583,fake_sent1,miss . 1 bus [SEP] wait bus,causes
+584,fake_sent1,go station [SEP] miss . 1 bus,obstructed by
+585,fake_sent1,town [SEP] job interview,motivated by goal
+586,fake_sent1,town [SEP] expensive,has property
+587,fake_sent1,company pay expense [SEP] town,causes desire
+588,fake_sent1,come area work . [SEP] job interview,has prerequisite
+589,fake_sent1,come area work . [SEP] leave family,implies
+590,fake_sent1,find job close home [SEP] leave family,discouraged by goal
+591,fake_sent1,wear pair buy [SEP] buy pair shoe,causes desire
+592,fake_sent1,wear pair buy [SEP] buy pair iron shoe .,causes desire
+593,fake_sent1,iron shoe [SEP] strong,has property
+594,fake_sent1,iron shoe [SEP] comfortable,doesn't have property
+595,fake_sent1,leather shoe [SEP] strong,has property
+596,fake_sent1,leather shoe [SEP] comfortable,has property
+597,fake_sent1,sport shoe [SEP] strong,has property
+598,fake_sent1,sport shoe [SEP] comfortable,has property
+599,fake_sent1,silk [SEP] warm,doesn't have property
+600,fake_sent1,silk [SEP] look nice,has property
+601,fake_sent1,heavy wool glove [SEP] like warm,motivated by goal
+602,fake_sent1,heavy wool glove [SEP] warm,has property
+603,fake_sent1,heavy wool glove [SEP] expensive,has property
+604,fake_sent1,expensive [SEP] discount,causes desire
+605,fake_sent1,membership card ? [SEP] free,has property
+606,fake_sent1,rent movie [SEP] membership card,has prerequisite
+607,fake_sent1,rent movie [SEP] return,happens before
+608,fake_sent1,pay check [SEP] fill form,has prerequisite
+609,fake_sent1,pay check [SEP] fill form,causes
+610,fake_sent1,fill form [SEP] pay check,motivated by goal
+611,fake_sent1,like room [SEP] pay check,causes
+612,fake_sent1,package tour [SEP] convenient,has property
+613,fake_sent1,package tour [SEP] arrange,causes
+614,fake_sent1,burn finger [SEP] ice,causes desire
+615,fake_sent1,burn finger [SEP] finger,causes desire
+616,fake_sent1,ice [SEP] finger,happens before
+617,fake_sent1,ice [SEP] finger,motivated by goal
+618,fake_sent1,finger [SEP] feel good,causes
+619,fake_sent1,Capital Building catch big fire [SEP] 220 people kill,causes
+620,fake_sent1,Capital Building catch big fire [SEP] building destroy,causes
+621,fake_sent1,Capital Building catch big fire [SEP] put,causes desire
+622,fake_sent1,forget food cook fire [SEP] strange smell,causes
+623,fake_sent1,strange smell [SEP] turn gas .,causes desire
+624,fake_sent1,cooking [SEP] forget food cook fire,happens before
+625,fake_sent1,lose [SEP] turn brown leather wallet,happens before
+626,fake_sent1,like bring [SEP] wait,causes desire
+627,fake_sent1,been anyway [SEP] visit plant,has subevent
+628,fake_sent1,leave [SEP] high position,motivated by goal
+629,fake_sent1,stay [SEP] notice management,causes
+630,fake_sent1,raise [SEP] stay,obstructed by
+631,fake_sent1,hit car [SEP] bike bad shape,causes
+632,fake_sent1,hit car [SEP] hurt,discourages
+633,fake_sent1,bike run car [SEP] bike bad shape,causes
+634,fake_sent1,bike run car [SEP] wheel damage,causes
+635,fake_sent1,ride [SEP] hurt,causes
+636,fake_sent1,sightseeing friend [SEP] bike bad shape,obstructed by
+637,fake_sent1,sightseeing friend [SEP] wheel damage,obstructed by
+638,fake_sent1,world - famous [SEP] interested company,causes desire
+639,fake_sent1,interested company [SEP] well chance persona development,motivated by goal
+640,fake_sent1,job [SEP] qualification,has prerequisite
+641,fake_sent1,experience [SEP] qualification,discourages
+642,fake_sent1,experience [SEP] need training,causes
+643,fake_sent1,training salary [SEP] answer tomorrow,causes desire
+644,fake_sent1,come cinema [SEP] important,obstructed by
+645,fake_sent1,important [SEP] wait,causes
+646,fake_sent1,important [SEP] call,causes desire
+647,fake_sent1,call [SEP] mobile phone power,obstructed by
+648,fake_sent1,leave recharge [SEP] bring,causes
+649,fake_sent1,call [SEP] bring,obstructed by
+650,fake_sent1,important [SEP] miss film,causes
+651,fake_sent1,late [SEP] wait,causes
+652,fake_sent1,awful driver hit wheel bicycle [SEP] send pavement,causes
+653,fake_sent1,awful driver hit wheel bicycle [SEP] kill,causes
+654,fake_sent1,awful driver hit wheel bicycle [SEP] late,causes
+655,fake_sent1,take foot desk [SEP] comfortable,obstructed by
+656,fake_sent1,foot desk [SEP] want mark desk,obstructed by
+657,fake_sent1,want badly mark ? [SEP] take foot desk,causes desire
+658,fake_sent1,meet [SEP] visit company,motivated by goal
+659,fake_sent1,meet [SEP] office,at location
+660,fake_sent1,office [SEP] comfortable,has property
+661,fake_sent1,factory [SEP] product,has property
+662,fake_sent1,meet [SEP] prefer product,motivated by goal
+663,fake_sent1,stop post office [SEP] buy stamp,motivated by goal
+664,fake_sent1,post office [SEP] book,at location
+665,fake_sent1,go back [SEP] see if it is still there,motivated by goal
+666,fake_sent1,stop post office [SEP] lose textbook,causes
+667,fake_sent1,break record recent Olympics [SEP] trophy,similar to
+668,fake_sent1,break record recent Olympics [SEP] swimming star,implies
+669,fake_sent1,old [SEP] swim,causes desire
+670,fake_sent1,pencil eraser [SEP] supply,is a
+671,fake_sent1,ruler [SEP] real supply,is a
+672,fake_sent1,calculator laptop computer [SEP] high tech stuff,is a
+673,fake_sent1,demand class [SEP] calculator laptop computer,has prerequisite
+674,fake_sent1,laptop computer [SEP] play video game,used for
+675,fake_sent1,play video game [SEP] go cost,has prerequisite
+676,fake_sent1,get divorce small child [SEP] bad,implies
+677,fake_sent1,parent struggle - establish life [SEP] need forget,causes
+678,fake_sent1,parent quarrel fighting [SEP] harm child,causes
+679,fake_sent1,air crash [SEP] tragic accident,is a
+680,fake_sent1,"hear descend 2,000 foot [SEP] descend wrong altitude",causes
+681,fake_sent1,"hear descend 2,000 foot [SEP] bad mistake",is a
+682,fake_sent1,bad mistake [SEP] people die,causes
+683,fake_sent1,misunderstand [SEP] accident,causes
+684,fake_sent1,"tragic accident [SEP] aboard , include crew , kill instantly",causes
+685,fake_sent1,birthday [SEP] buy pen,causes desire
+686,fake_sent1,work [SEP] exchange,causes desire
+687,fake_sent1,drop [SEP] work,causes
+688,fake_sent1,point bend little bit [SEP] work,causes
+689,fake_sent1,exchange [SEP] purple,obstructed by
+690,fake_sent1,work hard [SEP] save,motivated by goal
+691,fake_sent1,save [SEP] buy pen,motivated by goal
+692,fake_sent1,service terrible [SEP] speak manager,causes desire
+693,fake_sent1,wait minute glass mineral water [SEP] service terrible,implies
+694,fake_sent1,bit sort hand present [SEP] wait minute glass mineral water,causes
+695,fake_sent1,waitress ill [SEP] bit sort hand present,causes
+696,fake_sent1,overcharge [SEP] service terrible,implies
+697,fake_sent1,pay service charge [SEP] service terrible,obstructed by
+698,fake_sent1,tip [SEP] service terrible,obstructed by
+699,fake_sent1,service terrible [SEP] disappoint,causes
+700,fake_sent1,sea cucumber [SEP] delicious,has property
+701,fake_sent1,sea cucumber [SEP] cucumber,is not a
+702,fake_sent1,vegetarian [SEP] vegetable,desires
+703,fake_sent1,cucumber [SEP] vegetable,is a
+704,fake_sent1,sea cucumber [SEP] vegetable,is not a
+705,fake_sent1,sea cucumber [SEP] seafood,is a
+706,fake_sent1,emergency home [SEP] come,causes
+707,fake_sent1,talk manager [SEP] discount,motivated by goal
+708,fake_sent1,teach English [SEP] present language,has subevent
+709,fake_sent1,teach English [SEP] student chance practice speak,has subevent
+710,fake_sent1,talk experienced teacher [SEP] teach English,motivated by goal
+711,fake_sent1,take Teaching English Second Language course [SEP] teach English,motivated by goal
+712,fake_sent1,ESL teacher [SEP] teach English,has subevent
+713,fake_sent1,take Teaching English Second Language course [SEP] ESL teacher,motivated by goal
+714,fake_sent1,talk experienced teacher [SEP] ESL teacher,motivated by goal
+715,fake_sent1,barnacle [SEP] glue rock ocean,has property
+716,fake_sent1,glue rock ocean [SEP] stay place forever,causes
+717,fake_sent1,barnacle glue [SEP] strong adhesive nature,has property
+718,fake_sent1,barnacle glue [SEP] work wet surface,has property
+719,fake_sent1,glue rock ocean [SEP] work wet surface,implies
+720,fake_sent1,natural protein [SEP] probably harmful people,causes
+721,fake_sent1,barnacle glue [SEP] natural protein,is a
+722,fake_sent1,glue [SEP] mend broken bone,used for
+723,fake_sent1,glue [SEP] fast false tooth,used for
+724,fake_sent1,stay little longer [SEP] catch bus,obstructed by
+725,fake_sent1,goodbye [SEP] catch bus,motivated by goal
+726,fake_sent1,hurry [SEP] catch bus,motivated by goal
+727,fake_sent1,miss bus [SEP] hurry,suppresses desire
+728,fake_sent1,miss bus [SEP] drive home,causes
+729,fake_sent1,miss bus [SEP] late get home,causes
+730,fake_sent1,late get home [SEP] mother worry,causes
+731,fake_sent1,planting cabbage [SEP] soil box,has subevent
+732,fake_sent1,planting cabbage [SEP] sow seed,has subevent
+733,fake_sent1,planting cabbage [SEP] cover soil,has subevent
+734,fake_sent1,soil box [SEP] sow seed,happens before
+735,fake_sent1,sow seed [SEP] cover soil,happens before
+736,fake_sent1,box shade [SEP] sun burn little plant,motivated by goal
+737,fake_sent1,cover soil [SEP] box shade,happens before
+738,fake_sent1,water [SEP] stop soil get dry,motivated by goal
+739,fake_sent1,sun burn little plant [SEP] little plant earth,happens before
+740,fake_sent1,planting cabbage [SEP] little plant earth,has subevent
+741,fake_sent1,planting cabbage [SEP] water,has subevent
+742,fake_sent1,"powder [SEP] fish , blood bone",has property
+743,fake_sent1,powder [SEP] cabbage plant grow big strong,used for
+744,fake_sent1,' ve mainly take general requirement [SEP] late change major,causes
+745,fake_sent1,write newspaper article [SEP] work newspaper firm,motivated by goal
+746,fake_sent1,change major [SEP] write newspaper article,motivated by goal
+747,fake_sent1,University California [SEP] attend conference,at location
+748,fake_sent1,visit United Stated [SEP] attend conference,motivated by goal
+749,fake_sent1,visit United Stated [SEP] passport ready,has prerequisite
+750,fake_sent1,hometown [SEP] plan holiday,manner of
+751,fake_sent1,grandparent [SEP] hometown,at location
+752,fake_sent1,yes [SEP] hometown,at location
+753,fake_sent1,farming [SEP] know farm,implies
+754,fake_sent1,city boy [SEP] farm work,doesn't have property
+755,fake_sent1,kind people [SEP] happy,implies
+756,fake_sent1,know farm [SEP] learn farming,causes desire
+757,fake_sent1,grandparent happy [SEP] doubt,causes
+758,fake_sent1,doubt [SEP] sure,causes
+759,fake_sent1,I go there with you [SEP] learn farming,motivated by goal
+760,fake_sent1,stay Londo [SEP] ask arrange place stay .,is a
+761,fake_sent1,. [SEP] ask arrange place stay .,is a
+762,fake_sent1,charge [SEP] ask arrange,causes
+763,fake_sent1,arrange place stay . [SEP] ask arrange,causes
+764,fake_sent1,arrange place stay [SEP] kind place consider,causes desire
+765,fake_sent1,young child [SEP] noisy,has property
+766,fake_sent1,noisy [SEP] difficult study,causes
+767,fake_sent1,share people [SEP] good housework,has prerequisite
+768,fake_sent1,money save [SEP] big problem,causes
+769,fake_sent1,London expensive [SEP] big problem,causes
+770,fake_sent1,money save [SEP] think trouble money,causes
+771,fake_sent1,- time job [SEP] think trouble money,causes
+772,fake_sent1,work supermarket [SEP] think trouble money,causes
+773,fake_sent1,sound good [SEP] think trouble money,depends on
+774,fake_sent1,information [SEP] call you,implies
+775,fake_sent1,smell [SEP] bring memory,has property
+776,fake_sent1,smell sea [SEP] remind happy family holiday,causes
+777,fake_sent1,smell rose [SEP] think friend house,causes
+778,fake_sent1,smell air craft fuel [SEP] fly exciting,implies
+779,fake_sent1,smell garden rain [SEP] home,implies
+780,fake_sent1,wrong turn [SEP] sorry,causes
+781,fake_sent1,u - turn [SEP] rush hour,depends on
+782,fake_sent1,look passenger [SEP] ride,causes desire
+783,fake_sent1,place repair shoe [SEP] Fifth Street,at location
+784,fake_sent1,Fifth Street [SEP] far,at location
+785,fake_sent1,place repair shoe [SEP] difficult find,has property
+786,fake_sent1,place repair shoe [SEP] supermarket,at location
+787,fake_sent1,supermarket [SEP] block,at location
+788,fake_sent1,thank [SEP] welcome,social rule
+789,fake_sent1,"King Street [SEP] station , continue road come second crossing turn leave",at location
+790,fake_sent1,park [SEP] walk street bit turning right . walk,at location
+791,fake_sent1,street [SEP] King Street,similar to
+792,fake_sent1,small road [SEP] walk park,at location
+793,fake_sent1,English Language Institute [SEP] road right,at location
+794,fake_sent1,problem . [SEP] bill,causes
+795,fake_sent1,problem . [SEP] sorry mistake,causes
+796,fake_sent1,the call [SEP] problem .,is a
+797,fake_sent1,new tooth [SEP] good,has property
+798,fake_sent1,new tooth [SEP] fit right,has property
+799,fake_sent1,good [SEP] call,causes
+800,fake_sent1,fit right [SEP] day,happens in
+801,fake_sent1,leave [SEP] hurt,causes
+802,fake_sent1,leave [SEP] better,has property
+803,fake_sent1,hurt [SEP] beginning,happens in
+804,fake_sent1,hurt [SEP] set little,causes
+805,fake_sent1,"seat , [SEP] thank",social rule
+806,fake_sent1,Mary Brown [SEP] 18 year old,has property
+807,fake_sent1,Mary Brown [SEP] graduate Peterson Secretary School,has property
+808,fake_sent1,ad . [SEP] newspaper,at location
+809,fake_sent1,ad . [SEP] look secretary .,has property
+810,fake_sent1,secretary [SEP] type,has property
+811,fake_sent1,secretary [SEP] eceive phone call,has property
+812,fake_sent1,secretary [SEP] send fax,has property
+813,fake_sent1,secretary [SEP] writing report,has property
+814,fake_sent1,Mary Brown [SEP] type,has property
+815,fake_sent1,Mary Brown [SEP] eceive phone call,has property
+816,fake_sent1,Mary Brown [SEP] send fax,has property
+817,fake_sent1,Mary Brown [SEP] writing report,has property
+818,fake_sent1,"salary expect [SEP] 2,013 month",is a
+819,fake_sent1,let know result soon possible [SEP] thank,social rule
+820,fake_sent1,meeting talk [SEP] enjoy,causes
+821,fake_sent1,qualification [SEP] excellent,has property
+822,fake_sent1,visit [SEP] year,happens before
+823,fake_sent1,my will [SEP] visit,causes
+824,fake_sent1,visit [SEP] pleasure,causes
+825,fake_sent1,you [SEP] Mr. Tim,is a
+826,fake_sent1,Mr. Tim [SEP] $ 15 000 share industrial company,has a
+827,fake_sent1,Mr. Tim [SEP] wife,has a
+828,fake_sent1,Mr. Tim [SEP] son Jerry,has a
+829,fake_sent1,Mr. Tim [SEP] good salary,has a
+830,fake_sent1,Mr. Tim [SEP] good pension,social rule
+831,fake_sent1,good pension [SEP] live fairly comfortably,causes
+832,fake_sent1,good salary [SEP] live fairly comfortably,causes
+833,fake_sent1,$ 1 125 year [SEP] live fairly comfortably,causes
+834,fake_sent1,extra income [SEP] $ 1 125 year,is a
+835,fake_sent1,Mr. Tim [SEP] buy land,desires
+836,fake_sent1,Mr. Tim [SEP] build house son,desires
+837,fake_sent1,son Jerry [SEP] fortunate,has property
+838,fake_sent1,Mr. Tim [SEP] help buy land build house .,desires
+839,fake_sent1,Mr. Tim [SEP] married,desires
+840,fake_sent1,architect . [SEP] necessary buy land,has prerequisite
+841,fake_sent1,Mr. Tim [SEP] necessary inquiry,desires
+842,fake_sent1,wife go [SEP] day,happens before
+843,fake_sent1,Jerry Edinburgh [SEP] Saturday,happens in
+844,fake_sent1,necessary inquiry [SEP] pleased,causes
+845,fake_sent1,build house [SEP] write Local Authority inquire,has prerequisite
+846,fake_sent1,build house [SEP] permission Planning Authority,has prerequisite
+847,fake_sent1,permission Planning Authority [SEP] spoil surround village,implies
+848,fake_sent1,hire bike [SEP] I call you,causes
+849,fake_sent1,lot people [SEP] hire bike,has property
+850,fake_sent1,hire bike [SEP] day,happens in
+851,fake_sent1,motor bike [SEP] faste,used for
+852,fake_sent1,motor bike [SEP] beach,used for
+853,fake_sent1,people [SEP] rent motor bik,has property
+854,fake_sent1,Burt Bicycle Rental [SEP] island bicycle,has a
+855,fake_sent1,rental shop [SEP] No.100 Teckman Street,at location
+856,fake_sent1,Green [SEP] friend,has a
+857,fake_sent1,Green [SEP] Holiday Sun Hotel .,has property
+858,fake_sent1,Green [SEP] number 0708112,has property
+859,fake_sent1,Green [SEP] room 1203,has property
+860,fake_sent1,Green [SEP] hire 2 motor bike tomorrow morning 2 day,desires
+861,fake_sent1,people rent motor bike [SEP] hire 2 motor bike tomorrow morning 2 day,causes desire
+862,fake_sent1,left [SEP] wait little,implies
+863,fake_sent1,gym [SEP] exercise,used for
+864,fake_sent1,flight [SEP] elevator stair,implies
+865,fake_sent1,use gym free [SEP] charge extra gym,doesn't imply
+866,fake_sent1,room key [SEP] gym,used for
+867,fake_sent1,trainer [SEP] exercise,used for
+868,fake_sent1,traffic [SEP] shopping district,implies
+869,fake_sent1,"store , restaurant , theater [SEP] shopping district",at location
+870,fake_sent1,purchase supermarket [SEP] save lot time,causes
+871,fake_sent1,new job [SEP] work hard,has prerequisite
+872,fake_sent1,new job [SEP] fill paperwork,has prerequisite
+873,fake_sent1,start [SEP] fill paperwork,has prerequisite
+874,fake_sent1,clean [SEP] hand spoon,causes desire
+875,fake_sent1,hand [SEP] help book,implies
+876,fake_sent1,fax email [SEP] send story,used for
+877,fake_sent1,wrong laptop [SEP] email,implies
