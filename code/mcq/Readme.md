@@ -27,7 +27,7 @@ python main.py   --train_file dataset/train_iter{n_iter}_fold{n_fold}_Q.csv   --
 
 ### Roberta without context
 ```sh
-	python main.py   --train_file dataset/train_iter{n_iter}_fold{n_fold}_Q.csv   --validation_file dataset/test_iter{n_iter}_fold{n_fold}_Q.csv --model_name_or_path roberta-base  --do_train    --do_eval    --learning_rate 5e-5   --num_train_epochs 3   --max_seq_length 350   --output_dir outputs/roberta/fold{n_fold}_Q   --per_gpu_eval_batch_size=8   --per_gpu_train_batch_size=8   --gradient_accumulation_steps 2   --overwrite_output;
+python main.py   --train_file dataset/train_iter{n_iter}_fold{n_fold}_Q.csv   --validation_file dataset/test_iter{n_iter}_fold{n_fold}_Q.csv --model_name_or_path roberta-base  --do_train    --do_eval    --learning_rate 5e-5   --num_train_epochs 3   --max_seq_length 350   --output_dir outputs/roberta/fold{n_fold}_Q   --per_gpu_eval_batch_size=8   --per_gpu_train_batch_size=8   --gradient_accumulation_steps 2   --overwrite_output;
 ```
 
 ### Roberta pretraiend on squad with context:
