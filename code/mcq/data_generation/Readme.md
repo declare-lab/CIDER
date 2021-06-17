@@ -1,8 +1,3 @@
-
-For each iteration, run the following code
-python main.py   --train_file dataset/train_iter10.csv   --validation_file dataset/val_iter10.csv --model_name_or_path roberta-base --do_train    --do_eval    --learning_rate 5e-5   --num_train_epochs 3   --max_seq_length 350   --output_dir race_out/bert_base_uncased   --per_gpu_eval_batch_size=8   --per_gpu_train_batch_size=8   --gradient_accumulation_steps 2   --overwrite_output;
-
-## The path in the jupyter notebook may need to be changed accordingly
 1. Train a spanBert model on `original_data/relations_only/train_and_test.json` by running script 
 ```sh
 python train.py --cuda 2 --fold 1 --model span --epochs 15
