@@ -7,8 +7,8 @@ Code for NLI will be uploaded here soon.
 Code for QA will be uploaded here soon.
 
 ### Multi-choice Span Selection (MCQ)
-Please check [`mcq/Readme.md`]('mcq/Readme.md')
+Please check [`mcq/Readme.md`](mcq/Readme.md)
 
 ### Additional Task: Relation Prediction
-Please check [`relation_prediction/Readme.md`]('relation_prediction/Readme.md')
+Please check [`relation_prediction/Readme.md`](relation_prediction/Readme.md)
 
