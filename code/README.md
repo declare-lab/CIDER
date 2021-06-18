@@ -1,10 +1,10 @@
 ## Run Tasks
 
 ### Dialogue Level Natural Language Inference
-Code for NLI will be uploaded here soon.
+Please check [`dialogue_nli/Readme.md`](dialogue_nli/Readme.md)
 
 ### Span Extraction(Question Answering)
-Code for QA will be uploaded here soon.
+Please check [`span_extraction/Readme.md`](span_extraction/Readme.md)
 
 ### Multi-choice Span Selection (MCQ)
 Please check [`mcq/Readme.md`](mcq/Readme.md)

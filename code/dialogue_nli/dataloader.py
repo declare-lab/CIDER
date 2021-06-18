@@ -2,11 +2,8 @@ import pandas as pd
 from torch.utils.data import Dataset, DataLoader
 
 class NLIDataset(Dataset):
-
     def __init__(self, filename, mode):
-        
         pairs, labels = [], []
-        
         if mode  == '0':
             ## 0: roberta-mnli ##
             mapping = {"contradiction": 0, "neutral": 1, "entailment": 2}
