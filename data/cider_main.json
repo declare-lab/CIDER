@@ -154,12 +154,14 @@
             {
                 "head": "A table for two",
                 "relation": "Implies",
-                "tail": "Arriving at restaurant"
+                "tail": "Arriving at restaurant",
+                "latent": true
             },
             {
                 "head": "take your order now",
                 "relation": "Should",
-                "tail": "Arriving at restaurant"
+                "tail": "Arriving at restaurant",
+                "latent": true
             },
             {
                 "head": "local specialities",
@@ -719,17 +721,20 @@
             {
                 "head": "take a hammer to the client's head",
                 "relation": "Implies",
-                "tail": "The case is annoying"
+                "tail": "The case is annoying",
+                "latent": true
             },
             {
                 "head": "The case is annoying",
                 "relation": "Implies",
-                "tail": "The case is difficult"
+                "tail": "The case is difficult",
+                "latent": true
             },
             {
                 "head": "We'll get this case worked out in no time",
                 "relation": "HasContext",
-                "tail": "The case is difficult"
+                "tail": "The case is difficult",
+                "latent": true
             },
             {
                 "head": "Americano",
@@ -744,7 +749,8 @@
             {
                 "head": "The case is annoying",
                 "relation": "Causes",
-                "tail": "Lattes are so passe these days"
+                "tail": "Lattes are so passe these days",
+                "latent": true
             },
             {
                 "head": "hammerhead then-espresso mixed with drip coffee",
@@ -754,12 +760,14 @@
             {
                 "head": "hammerhead then-espresso mixed with drip coffee",
                 "relation": "UsedFor",
-                "tail": "Keep awake"
+                "tail": "Keep awake",
+                "latent": true
             },
             {
                 "head": "Keep awake",
                 "relation": "ObstructedBy",
-                "tail": "Lattes are so passe these days"
+                "tail": "Lattes are so passe these days",
+                "latent": true
             }
         ]
     },
@@ -984,22 +992,26 @@
             {
                 "head": "I don't know",
                 "relation": "Implies",
-                "tail": "They got off at the wrong bus station"
+                "tail": "They got off at the wrong bus station",
+                "latent": true
             },
             {
                 "head": "get off the bus too early",
                 "relation": "Causes",
-                "tail": "They got off at the wrong bus station"
+                "tail": "They got off at the wrong bus station",
+                "latent": true
             },
             {
                 "head": "They got off at the wrong bus station",
                 "relation": "ResultIn",
-                "tail": "walking"
+                "tail": "walking",
+                "latent": true
             },
             {
                 "head": "They got off at the wrong bus station",
                 "relation": "SocialRule",
-                "tail": "wait for the next bus to come"
+                "tail": "wait for the next bus to come",
+                "latent": true
             }
         ]
     },
@@ -1345,7 +1357,8 @@
             {
                 "head": "B need to do A lot of work",
                 "relation": "Causes",
-                "tail": "work far into the night"
+                "tail": "work far into the night",
+                "latent": true
             },
             {
                 "head": "get up early",
@@ -1546,7 +1559,8 @@
             {
                 "head": "it seems as if I got here yesterday",
                 "relation": "Implies",
-                "tail": "New to here"
+                "tail": "New to here",
+                "latent": true
             }
         ]
     },
@@ -1557,12 +1571,14 @@
             {
                 "head": "going home now",
                 "relation": "Implies",
-                "tail": "it is off work time"
+                "tail": "it is off work time",
+                "latent": true
             },
             {
                 "head": "it is off work time",
                 "relation": "Implies",
-                "tail": "work late"
+                "tail": "work late",
+                "latent": true
             },
             {
                 "head": "I'm not",
@@ -1818,12 +1834,14 @@
             {
                 "head": "being with a company for the long term",
                 "relation": "HasPrerequisite",
-                "tail": "live near company"
+                "tail": "live near company",
+                "latent": true
             },
             {
                 "head": "make my home here .",
                 "relation": "Causes",
-                "tail": "live near company"
+                "tail": "live near company",
+                "latent": true
             }
         ]
     },
@@ -2207,7 +2225,8 @@
             {
                 "head": "on the table",
                 "relation": "Implies",
-                "tail": "Able to access without help"
+                "tail": "Able to access without help",
+                "latent": true
             }
         ]
     },
@@ -2275,7 +2294,8 @@
             {
                 "head": "Parent opinion matters",
                 "relation": "RelatedTo",
-                "tail": "What's your parents ' opinion"
+                "tail": "What's your parents ' opinion",
+                "latent": true
             }
         ]
     },
@@ -2286,7 +2306,8 @@
             {
                 "head": "Already ate a lot of fruits",
                 "relation": "Implies",
-                "tail": "like fruit"
+                "tail": "like fruit",
+                "latent": true
             },
             {
                 "head": "hungry",
@@ -2296,7 +2317,8 @@
             {
                 "head": "already had 3 plates",
                 "relation": "Implies",
-                "tail": "Already ate a lot of fruits"
+                "tail": "Already ate a lot of fruits",
+                "latent": true
             },
             {
                 "head": "already had 3 plates",
@@ -2306,17 +2328,20 @@
             {
                 "head": "press the service button",
                 "relation": "UsedFor",
-                "tail": "order more food"
+                "tail": "order more food",
+                "latent": true
             },
             {
                 "head": "press the service button",
                 "relation": "MotivatedByGoal",
-                "tail": "order more food"
+                "tail": "order more food",
+                "latent": true
             },
             {
                 "head": "more squid balls",
                 "relation": "IsA",
-                "tail": "order more food"
+                "tail": "order more food",
+                "latent": true
             }
         ]
     },
@@ -2368,17 +2393,20 @@
             {
                 "head": "Of course it was him",
                 "relation": "Implies",
-                "tail": "He is at the hospital"
+                "tail": "He is at the hospital",
+                "latent": true
             },
             {
                 "head": "Hospital",
                 "relation": "Implies",
-                "tail": "He is at the hospital"
+                "tail": "He is at the hospital",
+                "latent": true
             },
             {
                 "head": "visiting someone",
                 "relation": "Causes",
-                "tail": "He is at the hospital"
+                "tail": "He is at the hospital",
+                "latent": true
             }
         ]
     },
@@ -2405,22 +2433,26 @@
             {
                 "head": "should go to Altadena",
                 "relation": "Implies",
-                "tail": "They are on the wrong bus"
+                "tail": "They are on the wrong bus",
+                "latent": true
             },
             {
                 "head": "Temple City",
                 "relation": "Implies",
-                "tail": "They are on the wrong bus"
+                "tail": "They are on the wrong bus",
+                "latent": true
             },
             {
                 "head": "They are on the wrong bus",
                 "relation": "Causes",
-                "tail": "never trusting you with the bus schedules"
+                "tail": "never trusting you with the bus schedules",
+                "latent": true
             },
             {
                 "head": "same bus can go back to where they started",
                 "relation": "Implies",
-                "tail": "we know which bus to catch to get back where we started"
+                "tail": "we know which bus to catch to get back where we started",
+                "latent": true
             },
             {
                 "head": "almost positive",
@@ -2488,22 +2520,26 @@
             {
                 "head": "credit cards",
                 "relation": "UsedFor",
-                "tail": "Pay the bill"
+                "tail": "Pay the bill",
+                "latent": true
             },
             {
                 "head": "cash",
                 "relation": "UsedFor",
-                "tail": "Pay the bill"
+                "tail": "Pay the bill",
+                "latent": true
             },
             {
                 "head": "have the chec",
                 "relation": "SimilarTo",
-                "tail": "Pay the bill"
+                "tail": "Pay the bill",
+                "latent": true
             },
             {
                 "head": "checks",
                 "relation": "UsedFor",
-                "tail": "Pay the bill"
+                "tail": "Pay the bill",
+                "latent": true
             }
         ]
     },
@@ -2530,12 +2566,14 @@
             {
                 "head": "out of service",
                 "relation": "ResultIn",
-                "tail": "need repairment"
+                "tail": "need repairment",
+                "latent": true
             },
             {
                 "head": "need repairment",
                 "relation": "HasPrerequisite",
-                "tail": "money"
+                "tail": "money",
+                "latent": true
             },
             {
                 "head": "out of service",
@@ -2545,7 +2583,8 @@
             {
                 "head": "pay the mortgage",
                 "relation": "HasPrerequisite",
-                "tail": "need repairment"
+                "tail": "need repairment",
+                "latent": true
             },
             {
                 "head": "bought",
@@ -2555,17 +2594,20 @@
             {
                 "head": "Is that enough",
                 "relation": "Implies",
-                "tail": "lend the money"
+                "tail": "lend the money",
+                "latent": true
             },
             {
                 "head": "lend the money",
                 "relation": "Causes",
-                "tail": "make my day"
+                "tail": "make my day",
+                "latent": true
             },
             {
                 "head": "pay you back",
                 "relation": "SocialRule",
-                "tail": "lend the money"
+                "tail": "lend the money",
+                "latent": true
             },
             {
                 "head": "get back on my feet",
@@ -2626,17 +2668,20 @@
             {
                 "head": "shower",
                 "relation": "Causes",
-                "tail": "wet"
+                "tail": "wet",
+                "latent": true
             },
             {
                 "head": "wet",
                 "relation": "Causes",
-                "tail": "slippery"
+                "tail": "slippery",
+                "latent": true
             },
             {
                 "head": "wet",
                 "relation": "Antonym",
-                "tail": "Dry"
+                "tail": "Dry",
+                "latent": true
             }
         ]
     },
@@ -2688,12 +2733,14 @@
             {
                 "head": "dress well",
                 "relation": "SocialRule",
-                "tail": "formal party"
+                "tail": "formal party",
+                "latent": true
             },
             {
                 "head": "shirt with a blue tie",
                 "relation": "UsedFor",
-                "tail": "formal party"
+                "tail": "formal party",
+                "latent": true
             },
             {
                 "head": "sports shoes",
@@ -2703,7 +2750,8 @@
             {
                 "head": "shirt with a blue tie",
                 "relation": "MotivatedByGoal",
-                "tail": "formal party"
+                "tail": "formal party",
+                "latent": true
             },
             {
                 "head": "sports shoes",
@@ -2723,7 +2771,8 @@
             {
                 "head": "formal party",
                 "relation": "IsA",
-                "tail": "formal occasions"
+                "tail": "formal occasions",
+                "latent": true
             },
             {
                 "head": "leather shoes",
@@ -2738,22 +2787,26 @@
             {
                 "head": "leather shoes",
                 "relation": "UsedFor",
-                "tail": "formal party"
+                "tail": "formal party",
+                "latent": true
             },
             {
                 "head": "leather shoes",
                 "relation": "MotivatedByGoal",
-                "tail": "formal party"
+                "tail": "formal party",
+                "latent": true
             },
             {
                 "head": "after the party",
                 "relation": "CausesDesire",
-                "tail": "go home"
+                "tail": "go home",
+                "latent": true
             },
             {
                 "head": "pick me up",
                 "relation": "MotivatedByGoal",
-                "tail": "go home"
+                "tail": "go home",
+                "latent": true
             },
             {
                 "head": "pick me up",
@@ -2763,7 +2816,8 @@
             {
                 "head": "take a taxi",
                 "relation": "MotivatedByGoal",
-                "tail": "go home"
+                "tail": "go home",
+                "latent": true
             },
             {
                 "head": "take a taxi",
@@ -2861,22 +2915,26 @@
             {
                 "head": "fool people",
                 "relation": "SocialRule",
-                "tail": "April Fool"
+                "tail": "April Fool",
+                "latent": true
             },
             {
                 "head": "joking",
                 "relation": "SocialRule",
-                "tail": "April Fool"
+                "tail": "April Fool",
+                "latent": true
             },
             {
                 "head": "fooled",
                 "relation": "HappensIn",
-                "tail": "joking"
+                "tail": "joking",
+                "latent": true
             },
             {
                 "head": "joking",
                 "relation": "Antonym",
-                "tail": "serious"
+                "tail": "serious",
+                "latent": true
             }
         ]
     },
@@ -3042,37 +3100,44 @@
             {
                 "head": "dressed too much",
                 "relation": "Causes",
-                "tail": "I can \u2019 t breathe"
+                "tail": "I can \u2019 t breathe",
+                "latent": true
             },
             {
                 "head": "cold outside",
                 "relation": "CausesDesire",
-                "tail": "keep warm"
+                "tail": "keep warm",
+                "latent": true
             },
             {
                 "head": "hat",
                 "relation": "UsedFor",
-                "tail": "keep warm"
+                "tail": "keep warm",
+                "latent": true
             },
             {
                 "head": "mittens",
                 "relation": "UsedFor",
-                "tail": "keep warm"
+                "tail": "keep warm",
+                "latent": true
             },
             {
                 "head": "ear muffs",
                 "relation": "UsedFor",
-                "tail": "keep warm"
+                "tail": "keep warm",
+                "latent": true
             },
             {
                 "head": "scarf",
                 "relation": "UsedFor",
-                "tail": "keep warm"
+                "tail": "keep warm",
+                "latent": true
             },
             {
                 "head": "cold outside",
                 "relation": "Causes",
-                "tail": "catch a cold"
+                "tail": "catch a cold",
+                "latent": true
             }
         ]
     },
@@ -3114,57 +3179,68 @@
             {
                 "head": "Cds",
                 "relation": "UsedFor",
-                "tail": "music"
+                "tail": "music",
+                "latent": true
             },
             {
                 "head": "dance",
                 "relation": "HasPrerequisite",
-                "tail": "music"
+                "tail": "music",
+                "latent": true
             },
             {
                 "head": "music",
                 "relation": "UsedFor",
-                "tail": "dance"
+                "tail": "dance",
+                "latent": true
             },
             {
                 "head": "guard every single one and they will come back in perfect condition",
                 "relation": "SocialRule",
-                "tail": "borrow"
+                "tail": "borrow",
+                "latent": true
             },
             {
                 "head": "buy back any damaged ones",
                 "relation": "SocialRule",
-                "tail": "rent them from me"
+                "tail": "rent them from me",
+                "latent": true
             },
             {
                 "head": "Cds",
                 "relation": "HasProperty",
-                "tail": "cheaper"
+                "tail": "cheaper",
+                "latent": true
             },
             {
                 "head": "live band",
                 "relation": "HasPrerequisite",
-                "tail": "need money"
+                "tail": "need money",
+                "latent": true
             },
             {
                 "head": "live band",
                 "relation": "HasProperty",
-                "tail": "fun"
+                "tail": "fun",
+                "latent": true
             },
             {
                 "head": "live band",
                 "relation": "HasProperty",
-                "tail": "exciting"
+                "tail": "exciting",
+                "latent": true
             },
             {
                 "head": "need money",
                 "relation": "ObstructedBy",
-                "tail": "doesn't have enough money"
+                "tail": "doesn't have enough money",
+                "latent": true
             },
             {
                 "head": "guard every single one",
                 "relation": "Causes",
-                "tail": "they will come back in perfect condition"
+                "tail": "they will come back in perfect condition",
+                "latent": true
             }
         ]
     },
@@ -3175,7 +3251,8 @@
             {
                 "head": "check",
                 "relation": "UsedFor",
-                "tail": "pay the bill"
+                "tail": "pay the bill",
+                "latent": true
             },
             {
                 "head": "owed you for last time",
@@ -3190,7 +3267,8 @@
             {
                 "head": "pay the bill",
                 "relation": "MannerOf",
-                "tail": "it is my treat"
+                "tail": "it is my treat",
+                "latent": true
             }
         ]
     },
@@ -3201,7 +3279,8 @@
             {
                 "head": "collect unemployment benefits",
                 "relation": "HasPrerequisite",
-                "tail": "not working"
+                "tail": "not working",
+                "latent": true
             },
             {
                 "head": "cut back on my hours",
@@ -3211,17 +3290,20 @@
             {
                 "head": "not working",
                 "relation": "Causes",
-                "tail": "paid less"
+                "tail": "paid less",
+                "latent": true
             },
             {
                 "head": "laid off",
                 "relation": "Causes",
-                "tail": "paid less"
+                "tail": "paid less",
+                "latent": true
             },
             {
                 "head": "working a lot fewer hours",
                 "relation": "Causes",
-                "tail": "paid less"
+                "tail": "paid less",
+                "latent": true
             },
             {
                 "head": "collect unemployment benefits",
@@ -3366,22 +3448,26 @@
             {
                 "head": "she is not free",
                 "relation": "Causes",
-                "tail": "she cannot answer phone call"
+                "tail": "she cannot answer phone call",
+                "latent": true
             },
             {
                 "head": "speak to Diana Curzon",
                 "relation": "ObstructedBy",
-                "tail": "she cannot answer phone call"
+                "tail": "she cannot answer phone call",
+                "latent": true
             },
             {
                 "head": "she's in a meeting at the moment",
                 "relation": "Causes",
-                "tail": "she is not free"
+                "tail": "she is not free",
+                "latent": true
             },
             {
                 "head": "she cannot answer phone call",
                 "relation": "Causes",
-                "tail": "take a message"
+                "tail": "take a message",
+                "latent": true
             },
             {
                 "head": "speak to Diana Curzon",
@@ -3587,12 +3673,14 @@
             {
                 "head": "take to school with you",
                 "relation": "Implies",
-                "tail": "leaving parents"
+                "tail": "leaving parents",
+                "latent": true
             },
             {
                 "head": "leaving parents",
                 "relation": "Causes",
-                "tail": "miss you something awfu"
+                "tail": "miss you something awfu",
+                "latent": true
             },
             {
                 "head": "miss you something awfu",
@@ -3602,7 +3690,8 @@
             {
                 "head": "leaving parents",
                 "relation": "Causes",
-                "tail": "crying"
+                "tail": "crying",
+                "latent": true
             },
             {
                 "head": "proud I am of you",
@@ -3664,12 +3753,14 @@
             {
                 "head": "too lazy",
                 "relation": "Causes",
-                "tail": "do not want to look up the dictionary"
+                "tail": "do not want to look up the dictionary",
+                "latent": true
             },
             {
                 "head": "do not want to look up the dictionary",
                 "relation": "Causes",
-                "tail": "tell me what it means"
+                "tail": "tell me what it means",
+                "latent": true
             },
             {
                 "head": "too lazy",
@@ -3819,17 +3910,20 @@
             {
                 "head": "car start",
                 "relation": "HasPrerequisite",
-                "tail": "gas"
+                "tail": "gas",
+                "latent": true
             },
             {
                 "head": "car start",
                 "relation": "HasPrerequisite",
-                "tail": "starter"
+                "tail": "starter",
+                "latent": true
             },
             {
                 "head": "car start",
                 "relation": "HasPrerequisite",
-                "tail": "battery"
+                "tail": "battery",
+                "latent": true
             }
         ]
     },
@@ -4438,7 +4532,8 @@
             {
                 "head": "terrible poison oak",
                 "relation": "IsA",
-                "tail": "sickness"
+                "tail": "sickness",
+                "latent": true
             },
             {
                 "head": "prescribed an ointment",
@@ -4459,7 +4554,8 @@
             {
                 "head": "try clothes",
                 "relation": "AtLocation",
-                "tail": "changing rooms"
+                "tail": "changing rooms",
+                "latent": true
             },
             {
                 "head": "jackets",
@@ -4480,7 +4576,8 @@
             {
                 "head": "return library card",
                 "relation": "Causes",
-                "tail": "get the refund"
+                "tail": "get the refund",
+                "latent": true
             },
             {
                 "head": "get the refund",
@@ -4495,7 +4592,8 @@
             {
                 "head": "apply for a library card",
                 "relation": "HasPrerequisite",
-                "tail": "deposit money"
+                "tail": "deposit money",
+                "latent": true
             }
         ]
     },
@@ -4552,7 +4650,8 @@
             {
                 "head": "remittance",
                 "relation": "HasPrerequisite",
-                "tail": "receiver's name and address"
+                "tail": "receiver's name and address",
+                "latent": true
             },
             {
                 "head": "remittance",
@@ -4660,12 +4759,14 @@
             {
                 "head": "exhibition",
                 "relation": "LocationOfAction",
-                "tail": "show around"
+                "tail": "show around",
+                "latent": true
             },
             {
                 "head": "show around",
                 "relation": "NotSocialRule",
-                "tail": "add inconvenience"
+                "tail": "add inconvenience",
+                "latent": true
             },
             {
                 "head": "exhibition",
@@ -4681,12 +4782,14 @@
             {
                 "head": "haircut",
                 "relation": "RelatedTo",
-                "tail": "shorten the back"
+                "tail": "shorten the back",
+                "latent": true
             },
             {
                 "head": "haircut",
                 "relation": "HasProperty",
-                "tail": "sideburns"
+                "tail": "sideburns",
+                "latent": true
             },
             {
                 "head": "sideburns",
@@ -4696,12 +4799,14 @@
             {
                 "head": "haircut",
                 "relation": "Before",
-                "tail": "shave"
+                "tail": "shave",
+                "latent": true
             },
             {
                 "head": "haircut",
                 "relation": "HasPrerequisite",
-                "tail": "Tilt your head"
+                "tail": "Tilt your head",
+                "latent": true
             }
         ]
     },
@@ -5006,12 +5111,14 @@
             {
                 "head": "She's eighty-seven",
                 "relation": "Implies",
-                "tail": "old age"
+                "tail": "old age",
+                "latent": true
             },
             {
                 "head": "bad memory",
                 "relation": "HappensIn",
-                "tail": "old age"
+                "tail": "old age",
+                "latent": true
             },
             {
                 "head": "like",
@@ -5047,17 +5154,20 @@
             {
                 "head": "job interview",
                 "relation": "HasPrerequisite",
-                "tail": "writing experience"
+                "tail": "writing experience",
+                "latent": true
             },
             {
                 "head": "job interview",
                 "relation": "Implies",
-                "tail": "interested in this position"
+                "tail": "interested in this position",
+                "latent": true
             },
             {
                 "head": "interested in this position",
                 "relation": "MotivatedByGoal",
-                "tail": "getting a job at newspaper agency"
+                "tail": "getting a job at newspaper agency",
+                "latent": true
             }
         ]
     },
@@ -5083,7 +5193,8 @@
             {
                 "head": "Real Estate Agency",
                 "relation": "UsedFor",
-                "tail": "renting apartment"
+                "tail": "renting apartment",
+                "latent": true
             },
             {
                 "head": "fridge and a stove",
@@ -5114,7 +5225,8 @@
             {
                 "head": "postage",
                 "relation": "DependsOn",
-                "tail": "weight of letter"
+                "tail": "weight of letter",
+                "latent": true
             }
         ]
     },
@@ -5155,7 +5267,8 @@
             {
                 "head": "questions",
                 "relation": "MotivatedByGoal",
-                "tail": "require help"
+                "tail": "require help",
+                "latent": true
             }
         ]
     },
@@ -5191,7 +5304,8 @@
             {
                 "head": "missed several buses",
                 "relation": "IsA",
-                "tail": "improbable event"
+                "tail": "improbable event",
+                "latent": true
             }
         ]
     },
@@ -5594,12 +5708,14 @@
             {
                 "head": "expensive",
                 "relation": "Causes",
-                "tail": "don't like opera"
+                "tail": "don't like opera",
+                "latent": true
             },
             {
                 "head": "singing in another language",
                 "relation": "Causes",
-                "tail": "don't like opera"
+                "tail": "don't like opera",
+                "latent": true
             }
         ]
     },
@@ -5702,7 +5818,8 @@
             {
                 "head": "the train is delayed",
                 "relation": "Causes",
-                "tail": "been late for my meetings"
+                "tail": "been late for my meetings",
+                "latent": true
             },
             {
                 "head": "been late for my meetings",
@@ -5722,7 +5839,8 @@
             {
                 "head": "the train is delayed",
                 "relation": "ResultIn",
-                "tail": "been late for my meetings"
+                "tail": "been late for my meetings",
+                "latent": true
             }
         ]
     },
@@ -5819,7 +5937,8 @@
             {
                 "head": "the job is tiring",
                 "relation": "CausesDesire",
-                "tail": "finish out job and get back home"
+                "tail": "finish out job and get back home",
+                "latent": true
             }
         ]
     },
@@ -5891,12 +6010,14 @@
             {
                 "head": "tangerines",
                 "relation": "AtLocation",
-                "tail": "fruit store"
+                "tail": "fruit store",
+                "latent": true
             },
             {
                 "head": "apples",
                 "relation": "AtLocation",
-                "tail": "fruit store"
+                "tail": "fruit store",
+                "latent": true
             }
         ]
     },
@@ -5917,7 +6038,8 @@
             {
                 "head": "look over the menu",
                 "relation": "MotivatedByGoal",
-                "tail": "to order food"
+                "tail": "to order food",
+                "latent": true
             },
             {
                 "head": "look over the menu",
@@ -5943,17 +6065,20 @@
             {
                 "head": "gun",
                 "relation": "HasProperty",
-                "tail": "a gunshot can kill or injure a person"
+                "tail": "a gunshot can kill or injure a person",
+                "latent": true
             },
             {
                 "head": "a gunshot can kill or injure a person",
                 "relation": "Causes",
-                "tail": "got so scared"
+                "tail": "got so scared",
+                "latent": true
             },
             {
                 "head": "a gunshot can kill or injure a person",
                 "relation": "ResultIn",
-                "tail": "got so scared"
+                "tail": "got so scared",
+                "latent": true
             },
             {
                 "head": "bank",
@@ -5968,7 +6093,8 @@
             {
                 "head": "robbery",
                 "relation": "AchievedBy",
-                "tail": "a guy with a gun"
+                "tail": "a guy with a gun",
+                "latent": true
             },
             {
                 "head": "got the money and tried to leave",
@@ -6142,7 +6268,8 @@
             {
                 "head": "took advantage of the blackout",
                 "relation": "MotivatedByGoal",
-                "tail": "not get caught"
+                "tail": "not get caught",
+                "latent": true
             },
             {
                 "head": "blackout",
@@ -6188,7 +6315,8 @@
             {
                 "head": "vacuum the floor",
                 "relation": "Causes",
-                "tail": "room being cleaned"
+                "tail": "room being cleaned",
+                "latent": true
             }
         ]
     },
@@ -6209,12 +6337,14 @@
             {
                 "head": "it was pretty hard",
                 "relation": "Causes",
-                "tail": "didn't pass it the first time"
+                "tail": "didn't pass it the first time",
+                "latent": true
             },
             {
                 "head": "do well",
                 "relation": "Antonym",
-                "tail": "didn't pass it the first time"
+                "tail": "didn't pass it the first time",
+                "latent": true
             },
             {
                 "head": "test",
@@ -6516,12 +6646,14 @@
             {
                 "head": "the waiter is busy",
                 "relation": "Causes",
-                "tail": "gotta run"
+                "tail": "gotta run",
+                "latent": true
             },
             {
                 "head": "gotta run",
                 "relation": "Implies",
-                "tail": "the waiter is busy"
+                "tail": "the waiter is busy",
+                "latent": true
             },
             {
                 "head": "complimentary fruit tray",
@@ -6706,12 +6838,14 @@
             {
                 "head": "had an accident on his way home from work",
                 "relation": "Causes",
-                "tail": "the family is in pain and distress"
+                "tail": "the family is in pain and distress",
+                "latent": true
             },
             {
                 "head": "had an accident on his way home from work",
                 "relation": "ResultIn",
-                "tail": "the family is in pain and distress"
+                "tail": "the family is in pain and distress",
+                "latent": true
             },
             {
                 "head": "had an accident on his way home from work",
@@ -6879,7 +7013,8 @@
             {
                 "head": "come to your place",
                 "relation": "Before",
-                "tail": "shop is closed"
+                "tail": "shop is closed",
+                "latent": true
             },
             {
                 "head": "shop",
@@ -6905,17 +7040,20 @@
             {
                 "head": "book a hotel room",
                 "relation": "HasPrerequisite",
-                "tail": "credit card"
+                "tail": "credit card",
+                "latent": true
             },
             {
                 "head": "book a hotel room",
                 "relation": "HasPrerequisite",
-                "tail": "debit card"
+                "tail": "debit card",
+                "latent": true
             },
             {
                 "head": "book a hotel room",
                 "relation": "HasPrerequisite",
-                "tail": "pay with cash"
+                "tail": "pay with cash",
+                "latent": true
             },
             {
                 "head": "have one free",
@@ -7130,7 +7268,8 @@
             {
                 "head": "bus",
                 "relation": "UsedFor",
-                "tail": "reach the park"
+                "tail": "reach the park",
+                "latent": true
             }
         ]
     },
@@ -7161,12 +7300,14 @@
             {
                 "head": "airport",
                 "relation": "LocationOfAction",
-                "tail": "catching a flight"
+                "tail": "catching a flight",
+                "latent": true
             },
             {
                 "head": "catching a flight",
                 "relation": "HasPrerequisite",
-                "tail": "ticket"
+                "tail": "ticket",
+                "latent": true
             }
         ]
     },
@@ -7177,7 +7318,8 @@
             {
                 "head": "parents gone out",
                 "relation": "Causes",
-                "tail": "have the house to ourselves"
+                "tail": "have the house to ourselves",
+                "latent": true
             },
             {
                 "head": "invited a lot of friends",
@@ -7192,12 +7334,14 @@
             {
                 "head": "shoes off",
                 "relation": "SocialRule",
-                "tail": "entering a house"
+                "tail": "entering a house",
+                "latent": true
             },
             {
                 "head": "attending someone's party",
                 "relation": "Causes",
-                "tail": "glad"
+                "tail": "glad",
+                "latent": true
             }
         ]
     },
@@ -7208,7 +7352,8 @@
             {
                 "head": "garage",
                 "relation": "LocationOfAction",
-                "tail": "fix broken car"
+                "tail": "fix broken car",
+                "latent": true
             },
             {
                 "head": "car has broken down",
@@ -7218,17 +7363,20 @@
             {
                 "head": "car has broken down",
                 "relation": "CausesDesire",
-                "tail": "reach subway station"
+                "tail": "reach subway station",
+                "latent": true
             },
             {
                 "head": "urgent appointment to keep",
                 "relation": "CausesDesire",
-                "tail": "reach subway station"
+                "tail": "reach subway station",
+                "latent": true
             },
             {
                 "head": "car has broken down",
                 "relation": "CausesDesire",
-                "tail": "catch train from subway station"
+                "tail": "catch train from subway station",
+                "latent": true
             },
             {
                 "head": "car has broken down",
@@ -7331,12 +7479,14 @@
             {
                 "head": "she thought I had laughed at her while I didn't",
                 "relation": "ResultIn",
-                "tail": "she is angry"
+                "tail": "she is angry",
+                "latent": true
             },
             {
                 "head": "she is angry",
                 "relation": "Causes",
-                "tail": "terrible quarrel"
+                "tail": "terrible quarrel",
+                "latent": true
             },
             {
                 "head": "she thought I had laughed at her while I didn't",
@@ -7418,7 +7568,8 @@
             {
                 "head": "They had a deal who lost will buy movie tickets",
                 "relation": "Causes",
-                "tail": "It looks like you have to buy tickets for us"
+                "tail": "It looks like you have to buy tickets for us",
+                "latent": true
             },
             {
                 "head": "luck of the draw",
@@ -7428,7 +7579,8 @@
             {
                 "head": "It looks like you have to buy tickets for us , Jason . And we're not going to see an action movie !",
                 "relation": "Implies",
-                "tail": "Jason wants to see action movies"
+                "tail": "Jason wants to see action movies",
+                "latent": true
             }
         ]
     },
@@ -7625,7 +7777,8 @@
             {
                 "head": "red apples",
                 "relation": "HasProperty",
-                "tail": "sweet"
+                "tail": "sweet",
+                "latent": true
             }
         ]
     },
@@ -7656,7 +7809,8 @@
             {
                 "head": "cereal",
                 "relation": "HasProperty",
-                "tail": "unhealthy"
+                "tail": "unhealthy",
+                "latent": true
             },
             {
                 "head": "cereal",
@@ -8357,12 +8511,14 @@
             {
                 "head": "visit grandma",
                 "relation": "Should",
-                "tail": "give grandma the picture"
+                "tail": "give grandma the picture",
+                "latent": true
             },
             {
                 "head": "get the picture that I drew for her",
                 "relation": "MotivatedByGoal",
-                "tail": "give grandma the picture"
+                "tail": "give grandma the picture",
+                "latent": true
             }
         ]
     },
@@ -8414,7 +8570,8 @@
             {
                 "head": "go to the movies this evening",
                 "relation": "HasPrerequisite",
-                "tail": "free"
+                "tail": "free",
+                "latent": true
             },
             {
                 "head": "haven't written to anyone for months",
@@ -8424,7 +8581,8 @@
             {
                 "head": "I must write some emails.",
                 "relation": "Implies",
-                "tail": "occupied"
+                "tail": "occupied",
+                "latent": true
             },
             {
                 "head": "don't have to write",
@@ -8444,7 +8602,8 @@
             {
                 "head": "don't have to write",
                 "relation": "Implies",
-                "tail": "free"
+                "tail": "free",
+                "latent": true
             }
         ]
     },
@@ -8506,7 +8665,8 @@
             {
                 "head": "order take-out",
                 "relation": "Implies",
-                "tail": "ordering at restaurant"
+                "tail": "ordering at restaurant",
+                "latent": true
             },
             {
                 "head": "straws",
@@ -8521,7 +8681,8 @@
             {
                 "head": "How much do I owe you",
                 "relation": "Implies",
-                "tail": "inish ordering and pay the bill"
+                "tail": "inish ordering and pay the bill",
+                "latent": true
             },
             {
                 "head": "$15",
@@ -8536,7 +8697,8 @@
             {
                 "head": "pay the bill",
                 "relation": "HasPrerequisite",
-                "tail": "calculate it"
+                "tail": "calculate it",
+                "latent": true
             }
         ]
     },
@@ -8583,32 +8745,38 @@
             {
                 "head": "appointment",
                 "relation": "HasPrerequisite",
-                "tail": "free"
+                "tail": "free",
+                "latent": true
             },
             {
                 "head": "I am afraid not",
                 "relation": "Implies",
-                "tail": "not free"
+                "tail": "not free",
+                "latent": true
             },
             {
                 "head": "manage tomorrow",
                 "relation": "Implies",
-                "tail": "tomorrow is free"
+                "tail": "tomorrow is free",
+                "latent": true
             },
             {
                 "head": "not on duty",
                 "relation": "Implies",
-                "tail": "not free"
+                "tail": "not free",
+                "latent": true
             },
             {
                 "head": "But what time is the clinic closed",
                 "relation": "MotivatedByGoal",
-                "tail": "clinic open"
+                "tail": "clinic open",
+                "latent": true
             },
             {
                 "head": "appointment",
                 "relation": "HasPrerequisite",
-                "tail": "clinic open"
+                "tail": "clinic open",
+                "latent": true
             }
         ]
     },
@@ -8619,12 +8787,14 @@
             {
                 "head": "tell me the time of the last plane",
                 "relation": "MotivatedByGoal",
-                "tail": "book a flight"
+                "tail": "book a flight",
+                "latent": true
             },
             {
                 "head": "book a flight",
                 "relation": "ObstructedBy",
-                "tail": "fully booked"
+                "tail": "fully booked",
+                "latent": true
             },
             {
                 "head": "bad weather",
@@ -8675,12 +8845,14 @@
             {
                 "head": "He shouldn't spend so much time with that girl",
                 "relation": "Implies",
-                "tail": "B is the parent of Bob"
+                "tail": "B is the parent of Bob",
+                "latent": true
             },
             {
                 "head": "What! Again",
                 "relation": "Implies",
-                "tail": "Georgia is far away"
+                "tail": "Georgia is far away",
+                "latent": true
             },
             {
                 "head": "Nineteen's",
@@ -8711,7 +8883,8 @@
             {
                 "head": "after watching a movie",
                 "relation": "Causes",
-                "tail": "Did you enjoy it"
+                "tail": "Did you enjoy it",
+                "latent": true
             },
             {
                 "head": "It went on too long",
@@ -8839,12 +9012,14 @@
             {
                 "head": "I've been looking for one over a year",
                 "relation": "Implies",
-                "tail": "not able to find a job"
+                "tail": "not able to find a job",
+                "latent": true
             },
             {
                 "head": "bad luck",
                 "relation": "Causes",
-                "tail": "not able to find a job"
+                "tail": "not able to find a job",
+                "latent": true
             },
             {
                 "head": "keep on looking",
@@ -8859,12 +9034,14 @@
             {
                 "head": "not able to find a job",
                 "relation": "Causes",
-                "tail": "how bad you feel"
+                "tail": "how bad you feel",
+                "latent": true
             },
             {
                 "head": "more people out of work there than there are here",
                 "relation": "Causes",
-                "tail": "not able to find a job"
+                "tail": "not able to find a job",
+                "latent": true
             },
             {
                 "head": "stayed in Puerto Rico in the first place",
@@ -8879,12 +9056,14 @@
             {
                 "head": "children",
                 "relation": "Implies",
-                "tail": "children need to taken care of"
+                "tail": "children need to taken care of",
+                "latent": true
             },
             {
                 "head": "children need to taken care of",
                 "relation": "ObstructedBy",
-                "tail": "Up the mountains"
+                "tail": "Up the mountains",
+                "latent": true
             },
             {
                 "head": "because your brother's here",
@@ -8960,12 +9139,14 @@
             {
                 "head": "Wait a minute",
                 "relation": "Implies",
-                "tail": "remember wrongly"
+                "tail": "remember wrongly",
+                "latent": true
             },
             {
                 "head": "bad memory",
                 "relation": "Causes",
-                "tail": "remember wrongly"
+                "tail": "remember wrongly",
+                "latent": true
             }
         ]
     },
@@ -9120,17 +9301,20 @@
             {
                 "head": "go for a picinc",
                 "relation": "Implies",
-                "tail": "free"
+                "tail": "free",
+                "latent": true
             },
             {
                 "head": "She is busy with her dancing class",
                 "relation": "Implies",
-                "tail": "not free"
+                "tail": "not free",
+                "latent": true
             },
             {
                 "head": "a very big performance",
                 "relation": "Causes",
-                "tail": "not free"
+                "tail": "not free",
+                "latent": true
             },
             {
                 "head": "take your camera",
@@ -9145,17 +9329,20 @@
             {
                 "head": "a very big performance",
                 "relation": "Should",
-                "tail": "prepare for the performance"
+                "tail": "prepare for the performance",
+                "latent": true
             },
             {
                 "head": "a very big performance",
                 "relation": "Causes",
-                "tail": "prepare for the performance"
+                "tail": "prepare for the performance",
+                "latent": true
             },
             {
                 "head": "prepare for the performance",
                 "relation": "Causes",
-                "tail": "She is busy with her dancing class"
+                "tail": "She is busy with her dancing class",
+                "latent": true
             }
         ]
     },
@@ -9268,7 +9455,8 @@
             {
                 "head": "take the plane",
                 "relation": "Causes",
-                "tail": "could you tell me when the plane for Berlin leaves"
+                "tail": "could you tell me when the plane for Berlin leaves",
+                "latent": true
             },
             {
                 "head": "could you tell me when the plane for Berlin leaves",
@@ -9299,7 +9487,8 @@
             {
                 "head": "I know nothing about the city",
                 "relation": "Implies",
-                "tail": "does not know the road"
+                "tail": "does not know the road",
+                "latent": true
             },
             {
                 "head": "my first trip to your city",
@@ -9493,12 +9682,14 @@
             {
                 "head": "I come in",
                 "relation": "MotivatedByGoal",
-                "tail": "looking for a job"
+                "tail": "looking for a job",
+                "latent": true
             },
             {
                 "head": "start work",
                 "relation": "HasPrerequisite",
-                "tail": "looking for a job"
+                "tail": "looking for a job",
+                "latent": true
             }
         ]
     },
@@ -10118,12 +10309,14 @@
             {
                 "head": "being a nurse",
                 "relation": "HasPrerequisite",
-                "tail": "went to the nursing college"
+                "tail": "went to the nursing college",
+                "latent": true
             },
             {
                 "head": "job",
                 "relation": "DefinedAs",
-                "tail": "being a nurse"
+                "tail": "being a nurse",
+                "latent": true
             }
         ]
     },
@@ -10180,12 +10373,14 @@
             {
                 "head": "watch a film",
                 "relation": "HasPrerequisite",
-                "tail": "To the cinema"
+                "tail": "To the cinema",
+                "latent": true
             },
             {
                 "head": "To the cinema",
                 "relation": "MotivatedByGoal",
-                "tail": "watch a film"
+                "tail": "watch a film",
+                "latent": true
             },
             {
                 "head": "coming with me",
@@ -11670,12 +11865,14 @@
             {
                 "head": "wrap it up",
                 "relation": "HasPrerequisite",
-                "tail": "buy"
+                "tail": "buy",
+                "latent": true
             },
             {
                 "head": "buy",
                 "relation": "Before",
-                "tail": "wrap it up"
+                "tail": "wrap it up",
+                "latent": true
             }
         ]
     },
@@ -12041,12 +12238,14 @@
             {
                 "head": "got the runs",
                 "relation": "CausesDesire",
-                "tail": "got to go to the restroom quick"
+                "tail": "got to go to the restroom quick",
+                "latent": true
             },
             {
                 "head": "stomachache",
                 "relation": "CausesDesire",
-                "tail": "find the restroom"
+                "tail": "find the restroom",
+                "latent": true
             },
             {
                 "head": "is not that strong",
@@ -12087,12 +12286,14 @@
             {
                 "head": "travelling",
                 "relation": "HasPrerequisite",
-                "tail": "ticket"
+                "tail": "ticket",
+                "latent": true
             },
             {
                 "head": "going home",
                 "relation": "Synonym",
-                "tail": "travelling"
+                "tail": "travelling",
+                "latent": true
             }
         ]
     },
@@ -12123,7 +12324,8 @@
             {
                 "head": "studying too much",
                 "relation": "MotivatedByGoal",
-                "tail": "do well in the exam"
+                "tail": "do well in the exam",
+                "latent": true
             },
             {
                 "head": "take better care of yourself",
@@ -12143,7 +12345,8 @@
             {
                 "head": "Next month will be the most important exam",
                 "relation": "CausesDesire",
-                "tail": "do well in the exam"
+                "tail": "do well in the exam",
+                "latent": true
             }
         ]
     },
@@ -12200,12 +12403,14 @@
             {
                 "head": "go to the store",
                 "relation": "HasPrerequisite",
-                "tail": "be off work"
+                "tail": "be off work",
+                "latent": true
             },
             {
                 "head": "be off work",
                 "relation": "Before",
-                "tail": "go to the store"
+                "tail": "go to the store",
+                "latent": true
             },
             {
                 "head": "take the No.5 bus",
@@ -12215,17 +12420,20 @@
             {
                 "head": "take the bike",
                 "relation": "ObstructedBy",
-                "tail": "bike is broken"
+                "tail": "bike is broken",
+                "latent": true
             },
             {
                 "head": "bus would be crowded",
                 "relation": "CausesDesire",
-                "tail": "take the bike"
+                "tail": "take the bike",
+                "latent": true
             },
             {
                 "head": "sister's new bike",
                 "relation": "UsedFor",
-                "tail": "go to the store"
+                "tail": "go to the store",
+                "latent": true
             }
         ]
     },
@@ -12236,12 +12444,14 @@
             {
                 "head": "rent a small flat",
                 "relation": "HasPrerequisite",
-                "tail": "find a flatmate"
+                "tail": "find a flatmate",
+                "latent": true
             },
             {
                 "head": "rent a small flat",
                 "relation": "CausesDesire",
-                "tail": "find a flatmate"
+                "tail": "find a flatmate",
+                "latent": true
             },
             {
                 "head": "losing my sleep",
@@ -12271,7 +12481,8 @@
             {
                 "head": "find one person for you",
                 "relation": "Implies",
-                "tail": "offered of being flatmate"
+                "tail": "offered of being flatmate",
+                "latent": true
             },
             {
                 "head": "decision",
@@ -12281,7 +12492,8 @@
             {
                 "head": "offered of being flatmate",
                 "relation": "Before",
-                "tail": "decision"
+                "tail": "decision",
+                "latent": true
             }
         ]
     },
@@ -12302,7 +12514,8 @@
             {
                 "head": "had a test week",
                 "relation": "CausesDesire",
-                "tail": "not to give a test again soon"
+                "tail": "not to give a test again soon",
+                "latent": true
             }
         ]
     },
@@ -12431,32 +12644,38 @@
             {
                 "head": "trying a lot of dresses",
                 "relation": "Causes",
-                "tail": "taking too much of your time"
+                "tail": "taking too much of your time",
+                "latent": true
             },
             {
                 "head": "trying a lot of dresses",
                 "relation": "ResultIn",
-                "tail": "taking too much of your time"
+                "tail": "taking too much of your time",
+                "latent": true
             },
             {
                 "head": "traffic is very heavy",
                 "relation": "Causes",
-                "tail": "friend arriving late"
+                "tail": "friend arriving late",
+                "latent": true
             },
             {
                 "head": "traffic is very heavy",
                 "relation": "ResultIn",
-                "tail": "friend arriving late"
+                "tail": "friend arriving late",
+                "latent": true
             },
             {
                 "head": "friend arriving late",
                 "relation": "Causes",
-                "tail": "going to be late for tonight's party"
+                "tail": "going to be late for tonight's party",
+                "latent": true
             },
             {
                 "head": "friend arriving late",
                 "relation": "ResultIn",
-                "tail": "going to be late for tonight's party"
+                "tail": "going to be late for tonight's party",
+                "latent": true
             },
             {
                 "head": "traffic is very heavy",
@@ -12563,7 +12782,8 @@
             {
                 "head": "chocolates are better received then flowers as present in birthdays",
                 "relation": "Causes",
-                "tail": "Flowers are lovely. But I think it's better to buy her a nice box of chocolates"
+                "tail": "Flowers are lovely. But I think it's better to buy her a nice box of chocolates",
+                "latent": true
             }
         ]
     },
@@ -12666,32 +12886,38 @@
             {
                 "head": "write job cover letter",
                 "relation": "MotivatedByGoal",
-                "tail": "want to get this job"
+                "tail": "want to get this job",
+                "latent": true
             },
             {
                 "head": "job cover letter",
                 "relation": "UsedFor",
-                "tail": "get this job"
+                "tail": "get this job",
+                "latent": true
             },
             {
                 "head": "job cover letter",
                 "relation": "HasPrerequisite",
-                "tail": "include much more information about your work experience"
+                "tail": "include much more information about your work experience",
+                "latent": true
             },
             {
                 "head": "job cover letter",
                 "relation": "HasPrerequisite",
-                "tail": "write about your education first"
+                "tail": "write about your education first",
+                "latent": true
             },
             {
                 "head": "like to have your opinion",
                 "relation": "MotivatedByGoal",
-                "tail": "make the cover letter better"
+                "tail": "make the cover letter better",
+                "latent": true
             },
             {
                 "head": "read this letter I've just written",
                 "relation": "MotivatedByGoal",
-                "tail": "make the cover letter better"
+                "tail": "make the cover letter better",
+                "latent": true
             }
         ]
     },
@@ -12869,17 +13095,20 @@
             {
                 "head": "birthday celebration",
                 "relation": "HappensIn",
-                "tail": "mom's fiftieth birthday"
+                "tail": "mom's fiftieth birthday",
+                "latent": true
             },
             {
                 "head": "birthday celebration",
                 "relation": "HasPrerequisite",
-                "tail": "shopping"
+                "tail": "shopping",
+                "latent": true
             },
             {
                 "head": "birthday cake",
                 "relation": "SocialRule",
-                "tail": "birthday celebration"
+                "tail": "birthday celebration",
+                "latent": true
             },
             {
                 "head": "mom's fiftieth birthday",
@@ -12889,12 +13118,14 @@
             {
                 "head": "mom's fiftieth birthday",
                 "relation": "CausesDesire",
-                "tail": "daughter cooks dinner"
+                "tail": "daughter cooks dinner",
+                "latent": true
             },
             {
                 "head": "daughter cooks dinner for Mom's birthday",
                 "relation": "Causes",
-                "tail": "Mom would like them"
+                "tail": "Mom would like them",
+                "latent": true
             }
         ]
     },
@@ -12910,32 +13141,38 @@
             {
                 "head": "bad cold",
                 "relation": "ResultIn",
-                "tail": "admitted to hospital"
+                "tail": "admitted to hospital",
+                "latent": true
             },
             {
                 "head": "headache",
                 "relation": "ResultIn",
-                "tail": "admitted to hospital"
+                "tail": "admitted to hospital",
+                "latent": true
             },
             {
                 "head": "hurt himself in the left left",
                 "relation": "ResultIn",
-                "tail": "admitted to hospital"
+                "tail": "admitted to hospital",
+                "latent": true
             },
             {
                 "head": "bad cold",
                 "relation": "Causes",
-                "tail": "admitted to hospital"
+                "tail": "admitted to hospital",
+                "latent": true
             },
             {
                 "head": "headache",
                 "relation": "Causes",
-                "tail": "admitted to hospital"
+                "tail": "admitted to hospital",
+                "latent": true
             },
             {
                 "head": "hurt himself in the left left",
                 "relation": "Causes",
-                "tail": "admitted to hospital"
+                "tail": "admitted to hospital",
+                "latent": true
             },
             {
                 "head": "hurt himself in the left left",
@@ -12950,12 +13187,14 @@
             {
                 "head": "admitted to hospital",
                 "relation": "CausesDesire",
-                "tail": "asked me to see her nephew"
+                "tail": "asked me to see her nephew",
+                "latent": true
             },
             {
                 "head": "sent to the hospital",
                 "relation": "Synonym",
-                "tail": "admitted to hospital"
+                "tail": "admitted to hospital",
+                "latent": true
             }
         ]
     },
@@ -12976,12 +13215,14 @@
             {
                 "head": "My sister already gave him one",
                 "relation": "Implies",
-                "tail": "her brother already has a silk tie"
+                "tail": "her brother already has a silk tie",
+                "latent": true
             },
             {
                 "head": "her brother already has a silk tie",
                 "relation": "CausesDesire",
-                "tail": "like something unusual"
+                "tail": "like something unusual",
+                "latent": true
             },
             {
                 "head": "My sister already gave him one",
@@ -13007,7 +13248,8 @@
             {
                 "head": "buy the clock radio",
                 "relation": "ObstructedBy",
-                "tail": "don't accept credit cards in this family-run store"
+                "tail": "don't accept credit cards in this family-run store",
+                "latent": true
             },
             {
                 "head": "awaken me with soft music",
@@ -13032,12 +13274,14 @@
             {
                 "head": "appliance store",
                 "relation": "LocationOfAction",
-                "tail": "buy the clock radio"
+                "tail": "buy the clock radio",
+                "latent": true
             },
             {
                 "head": "family-run store",
                 "relation": "NotLocationOfAction",
-                "tail": "buy the clock radio"
+                "tail": "buy the clock radio",
+                "latent": true
             }
         ]
     },
@@ -13078,7 +13322,8 @@
             {
                 "head": "like to get him a nice gift",
                 "relation": "HasPrerequisite",
-                "tail": "price range"
+                "tail": "price range",
+                "latent": true
             }
         ]
     },
@@ -13089,7 +13334,8 @@
             {
                 "head": "sun shone every day and it didn't rain at all",
                 "relation": "Implies",
-                "tail": "good weather"
+                "tail": "good weather",
+                "latent": true
             },
             {
                 "head": "had tea in their houses",
@@ -13150,17 +13396,20 @@
             {
                 "head": "they've never been to the UK before",
                 "relation": "Causes",
-                "tail": "they might have difficulty in moving around"
+                "tail": "they might have difficulty in moving around",
+                "latent": true
             },
             {
                 "head": "they don't speak English",
                 "relation": "Causes",
-                "tail": "they might have difficulty in moving around"
+                "tail": "they might have difficulty in moving around",
+                "latent": true
             },
             {
                 "head": "they might have difficulty in moving around",
                 "relation": "CausesDesire",
-                "tail": "expect me to be there"
+                "tail": "expect me to be there",
+                "latent": true
             },
             {
                 "head": "take maybe just two days off",
@@ -13272,7 +13521,8 @@
             {
                 "head": "arms doing all the work",
                 "relation": "ObstructedBy",
-                "tail": "adding leg exercises"
+                "tail": "adding leg exercises",
+                "latent": true
             },
             {
                 "head": "arm exercises",
@@ -13308,7 +13558,8 @@
             {
                 "head": "called the police",
                 "relation": "MotivatedByGoal",
-                "tail": "report the accident"
+                "tail": "report the accident",
+                "latent": true
             },
             {
                 "head": "accident",
@@ -13445,17 +13696,20 @@
             {
                 "head": "thieves broke into the house",
                 "relation": "CausesDesire",
-                "tail": "phone the police"
+                "tail": "phone the police",
+                "latent": true
             },
             {
                 "head": "phone the police",
                 "relation": "MotivatedByGoal",
-                "tail": "reporting the break in"
+                "tail": "reporting the break in",
+                "latent": true
             },
             {
                 "head": "phone the police",
                 "relation": "UsedFor",
-                "tail": "reporting the break in"
+                "tail": "reporting the break in",
+                "latent": true
             },
             {
                 "head": "heard us coming",
@@ -13465,7 +13719,8 @@
             {
                 "head": "a car or a truck",
                 "relation": "UsedFor",
-                "tail": "carrying the television"
+                "tail": "carrying the television",
+                "latent": true
             },
             {
                 "head": "the television is gone",
@@ -13480,7 +13735,8 @@
             {
                 "head": "mess",
                 "relation": "CreatedBy",
-                "tail": "thieves"
+                "tail": "thieves",
+                "latent": true
             },
             {
                 "head": "The back door's open",
@@ -13490,12 +13746,14 @@
             {
                 "head": "stealing more things",
                 "relation": "ObstructedBy",
-                "tail": "heard us coming"
+                "tail": "heard us coming",
+                "latent": true
             },
             {
                 "head": "stealing more things",
                 "relation": "ObstructedBy",
-                "tail": "They can't have been here long"
+                "tail": "They can't have been here long",
+                "latent": true
             },
             {
                 "head": "we must have disturbed them",
@@ -13515,7 +13773,8 @@
             {
                 "head": "getting through backdoor",
                 "relation": "ObstructedBy",
-                "tail": "locked"
+                "tail": "locked",
+                "latent": true
             }
         ]
     },
@@ -13531,7 +13790,8 @@
             {
                 "head": "walking to a very high floor",
                 "relation": "CausesDesire",
-                "tail": "wish we had taken the lift"
+                "tail": "wish we had taken the lift",
+                "latent": true
             },
             {
                 "head": "tired out",
@@ -13541,12 +13801,14 @@
             {
                 "head": "walking to a very high floor",
                 "relation": "Causes",
-                "tail": "tired out"
+                "tail": "tired out",
+                "latent": true
             },
             {
                 "head": "walking to a very high floor",
                 "relation": "Causes",
-                "tail": "helpful for our health"
+                "tail": "helpful for our health",
+                "latent": true
             }
         ]
     },
@@ -13638,7 +13900,8 @@
             {
                 "head": "have bread and juice",
                 "relation": "ObstructedBy",
-                "tail": "be home soon"
+                "tail": "be home soon",
+                "latent": true
             },
             {
                 "head": "hungry",
@@ -13698,7 +13961,8 @@
             {
                 "head": "bus stop",
                 "relation": "LocationOfAction",
-                "tail": "have bread and juice"
+                "tail": "have bread and juice",
+                "latent": true
             },
             {
                 "head": "buy yoghurt",
@@ -13714,42 +13978,50 @@
             {
                 "head": "need to work",
                 "relation": "SocialRule",
-                "tail": "on Mondays"
+                "tail": "on Mondays",
+                "latent": true
             },
             {
                 "head": "feel tired",
                 "relation": "CausesDesire",
-                "tail": "don't want to work"
+                "tail": "don't want to work",
+                "latent": true
             },
             {
                 "head": "Party",
                 "relation": "Causes",
-                "tail": "feel tired"
+                "tail": "feel tired",
+                "latent": true
             },
             {
                 "head": "Party",
                 "relation": "ResultIn",
-                "tail": "feel tired"
+                "tail": "feel tired",
+                "latent": true
             },
             {
                 "head": "home",
                 "relation": "LocationOfAction",
-                "tail": "watched Gone with the Wind"
+                "tail": "watched Gone with the Wind",
+                "latent": true
             },
             {
                 "head": "watched Gone with the Wind",
                 "relation": "HasPrerequisite",
-                "tail": "tape"
+                "tail": "tape",
+                "latent": true
             },
             {
                 "head": "need to work",
                 "relation": "ObstructedBy",
-                "tail": "feel tired"
+                "tail": "feel tired",
+                "latent": true
             },
             {
                 "head": "Party",
                 "relation": "HasPrerequisite",
-                "tail": "many people"
+                "tail": "many people",
+                "latent": true
             }
         ]
     },
@@ -13770,7 +14042,8 @@
             {
                 "head": "use the mailbox to send the letter",
                 "relation": "ObstructedBy",
-                "tail": "have to register it"
+                "tail": "have to register it",
+                "latent": true
             },
             {
                 "head": "mail box",
@@ -13810,22 +14083,26 @@
             {
                 "head": "go to the post office",
                 "relation": "MotivatedByGoal",
-                "tail": "send a letter"
+                "tail": "send a letter",
+                "latent": true
             },
             {
                 "head": "send a letter",
                 "relation": "CausesDesire",
-                "tail": "go to the post office"
+                "tail": "go to the post office",
+                "latent": true
             },
             {
                 "head": "familiar with this neighborhood",
                 "relation": "Implies",
-                "tail": "know the neighborhood well"
+                "tail": "know the neighborhood well",
+                "latent": true
             },
             {
                 "head": "lived here all my life",
                 "relation": "Causes",
-                "tail": "know the neighborhood well"
+                "tail": "know the neighborhood well",
+                "latent": true
             },
             {
                 "head": "Post Office",
@@ -13851,17 +14128,20 @@
             {
                 "head": "fill out this report",
                 "relation": "MotivatedByGoal",
-                "tail": "return the lost item when found"
+                "tail": "return the lost item when found",
+                "latent": true
             },
             {
                 "head": "your name, your address and telephone number",
                 "relation": "UsedFor",
-                "tail": "return the lost item when found"
+                "tail": "return the lost item when found",
+                "latent": true
             },
             {
                 "head": "return the lost item when found",
                 "relation": "HasPrerequisite",
-                "tail": "your name, your address and telephone number"
+                "tail": "your name, your address and telephone number",
+                "latent": true
             },
             {
                 "head": "wallet, two keys, and a letter",
@@ -13876,7 +14156,8 @@
             {
                 "head": "find it",
                 "relation": "CausesDesire",
-                "tail": "return the lost item when found"
+                "tail": "return the lost item when found",
+                "latent": true
             },
             {
                 "head": "What color is it",
@@ -13901,7 +14182,8 @@
             {
                 "head": "lost my handbag",
                 "relation": "CausesDesire",
-                "tail": "report the lost item"
+                "tail": "report the lost item",
+                "latent": true
             },
             {
                 "head": "lost my handbag",
@@ -13916,12 +14198,14 @@
             {
                 "head": "Please, please, can you help me",
                 "relation": "Implies",
-                "tail": "being tensed"
+                "tail": "being tensed",
+                "latent": true
             },
             {
                 "head": "being tensed",
                 "relation": "CausesDesire",
-                "tail": "Calm down"
+                "tail": "Calm down",
+                "latent": true
             },
             {
                 "head": "lost my handbag",
@@ -13967,12 +14251,14 @@
             {
                 "head": "not become ill from the heat",
                 "relation": "CausesDesire",
-                "tail": "drinking bottled water"
+                "tail": "drinking bottled water",
+                "latent": true
             },
             {
                 "head": "not become ill from the heat",
                 "relation": "CausesDesire",
-                "tail": "been careful in the sun"
+                "tail": "been careful in the sun",
+                "latent": true
             },
             {
                 "head": "feeling ill",
@@ -13987,7 +14273,8 @@
             {
                 "head": "been here a week",
                 "relation": "Causes",
-                "tail": "getting used to the heat"
+                "tail": "getting used to the heat",
+                "latent": true
             },
             {
                 "head": "feeling ill",
@@ -14002,7 +14289,8 @@
             {
                 "head": "getting used to the heat",
                 "relation": "NotCauses",
-                "tail": "make anyone ill"
+                "tail": "make anyone ill",
+                "latent": true
             }
         ]
     },
@@ -15136,12 +15424,14 @@
             {
                 "head": "taxi",
                 "relation": "UsedFor",
-                "tail": "reach the hotel"
+                "tail": "reach the hotel",
+                "latent": true
             },
             {
                 "head": "taxi",
                 "relation": "LocationOfAction",
-                "tail": "listen to some light music"
+                "tail": "listen to some light music",
+                "latent": true
             }
         ]
     },
@@ -15259,22 +15549,26 @@
             {
                 "head": "went to Joyce's",
                 "relation": "Causes",
-                "tail": "being late"
+                "tail": "being late",
+                "latent": true
             },
             {
                 "head": "being late",
                 "relation": "Implies",
-                "tail": "forgot her watch"
+                "tail": "forgot her watch",
+                "latent": true
             },
             {
                 "head": "forgot her watch",
                 "relation": "ResultIn",
-                "tail": "being late"
+                "tail": "being late",
+                "latent": true
             },
             {
                 "head": "wash the dishes",
                 "relation": "ObstructedBy",
-                "tail": "being late"
+                "tail": "being late",
+                "latent": true
             }
         ]
     },
@@ -16933,12 +17227,14 @@
             {
                 "head": "grandparents would be very happy to see you",
                 "relation": "Causes",
-                "tail": "doubt"
+                "tail": "doubt",
+                "latent": true
             },
             {
                 "head": "doubt",
                 "relation": "Causes",
-                "tail": "Are you sure"
+                "tail": "Are you sure",
+                "latent": true
             },
             {
                 "head": "I go there with you",
@@ -17096,12 +17392,14 @@
             {
                 "head": "studying for another exam",
                 "relation": "Causes",
-                "tail": "curiosity"
+                "tail": "curiosity",
+                "latent": true
             },
             {
                 "head": "curiosity",
                 "relation": "Causes",
-                "tail": "What subject is it"
+                "tail": "What subject is it",
+                "latent": true
             }
         ]
     },
@@ -17502,12 +17800,14 @@
             {
                 "head": "real problems in this department",
                 "relation": "Causes",
-                "tail": "upsets Frank"
+                "tail": "upsets Frank",
+                "latent": true
             },
             {
                 "head": "upsets Frank",
                 "relation": "Desires",
-                "tail": "time to talk about it"
+                "tail": "time to talk about it",
+                "latent": true
             }
         ]
     },
@@ -18689,7 +18989,8 @@
             {
                 "head": "back of the room",
                 "relation": "LocationOfAction",
-                "tail": "head starts hurting more"
+                "tail": "head starts hurting more",
+                "latent": true
             },
             {
                 "head": "head starts hurting",
@@ -18714,12 +19015,14 @@
             {
                 "head": "eye disorder",
                 "relation": "CausesDesire",
-                "tail": "get your eyes checked"
+                "tail": "get your eyes checked",
+                "latent": true
             },
             {
                 "head": "eye disorder",
                 "relation": "CausesDesire",
-                "tail": "need glasses"
+                "tail": "need glasses",
+                "latent": true
             },
             {
                 "head": "get your eyes checked",
@@ -18729,22 +19032,26 @@
             {
                 "head": "eye disorder",
                 "relation": "Causes",
-                "tail": "head starts hurting"
+                "tail": "head starts hurting",
+                "latent": true
             },
             {
                 "head": "eye disorder",
                 "relation": "ResultIn",
-                "tail": "head starts hurting"
+                "tail": "head starts hurting",
+                "latent": true
             },
             {
                 "head": "need glasses",
                 "relation": "MotivatedByGoal",
-                "tail": "fix eye disorde"
+                "tail": "fix eye disorde",
+                "latent": true
             },
             {
                 "head": "get your eyes checked",
                 "relation": "MotivatedByGoal",
-                "tail": "fix eye disorde"
+                "tail": "fix eye disorde",
+                "latent": true
             }
         ]
     },
@@ -18780,17 +19087,20 @@
             {
                 "head": "find a job",
                 "relation": "HasPrerequisite",
-                "tail": "submitted a job application"
+                "tail": "submitted a job application",
+                "latent": true
             },
             {
                 "head": "find a job",
                 "relation": "CausesDesire",
-                "tail": "submitted a job application"
+                "tail": "submitted a job application",
+                "latent": true
             },
             {
                 "head": "submitted a job application",
                 "relation": "MotivatedByGoal",
-                "tail": "find a job"
+                "tail": "find a job",
+                "latent": true
             },
             {
                 "head": "won't be here",
@@ -18836,12 +19146,14 @@
             {
                 "head": "skip to the head of the line",
                 "relation": "MotivatedByGoal",
-                "tail": "catch the flight in time"
+                "tail": "catch the flight in time",
+                "latent": true
             },
             {
                 "head": "catch the flight in time",
                 "relation": "ObstructedBy",
-                "tail": "running late to the airport"
+                "tail": "running late to the airport",
+                "latent": true
             },
             {
                 "head": "running late to the airport",
@@ -18861,17 +19173,20 @@
             {
                 "head": "accident",
                 "relation": "Causes",
-                "tail": "traffic congestion"
+                "tail": "traffic congestion",
+                "latent": true
             },
             {
                 "head": "accident",
                 "relation": "ResultIn",
-                "tail": "traffic congestion"
+                "tail": "traffic congestion",
+                "latent": true
             },
             {
                 "head": "traffic congestion",
                 "relation": "Implies",
-                "tail": "sitting here in traffic"
+                "tail": "sitting here in traffic",
+                "latent": true
             },
             {
                 "head": "sitting here in traffic",
@@ -18886,42 +19201,50 @@
             {
                 "head": "reach destination in time",
                 "relation": "CausesDesire",
-                "tail": "don't want to have to take a later flight!"
+                "tail": "don't want to have to take a later flight!",
+                "latent": true
             },
             {
                 "head": "catch the flight in time",
                 "relation": "MotivatedByGoal",
-                "tail": "reach destination in time"
+                "tail": "reach destination in time",
+                "latent": true
             },
             {
                 "head": "reach destination in time",
                 "relation": "CausesDesire",
-                "tail": "catch the flight in time"
+                "tail": "catch the flight in time",
+                "latent": true
             },
             {
                 "head": "reach destination in time",
                 "relation": "ObstructedBy",
-                "tail": "miss your flight"
+                "tail": "miss your flight",
+                "latent": true
             },
             {
                 "head": "catch the flight in time",
                 "relation": "Synonym",
-                "tail": "don't want to have to take a later flight!"
+                "tail": "don't want to have to take a later flight!",
+                "latent": true
             },
             {
                 "head": "reach destination in time",
                 "relation": "HasPrerequisite",
-                "tail": "catch the flight in time"
+                "tail": "catch the flight in time",
+                "latent": true
             },
             {
                 "head": "catch the flight in time",
                 "relation": "HasPrerequisite",
-                "tail": "reach airport in time"
+                "tail": "reach airport in time",
+                "latent": true
             },
             {
                 "head": "reach airport in time",
                 "relation": "ObstructedBy",
-                "tail": "sitting here in traffic"
+                "tail": "sitting here in traffic",
+                "latent": true
             }
         ]
     },
@@ -18942,12 +19265,14 @@
             {
                 "head": "couldn't do any serious studying at the beach",
                 "relation": "Causes",
-                "tail": "coming back home"
+                "tail": "coming back home",
+                "latent": true
             },
             {
                 "head": "couldn't do any serious studying at the beach",
                 "relation": "CausesDesire",
-                "tail": "coming back home"
+                "tail": "coming back home",
+                "latent": true
             },
             {
                 "head": "have a paper to work on",
@@ -18957,7 +19282,8 @@
             {
                 "head": "have a paper to work on",
                 "relation": "CausesDesire",
-                "tail": "coming back home"
+                "tail": "coming back home",
+                "latent": true
             },
             {
                 "head": "have a paper to work on",
@@ -18972,12 +19298,14 @@
             {
                 "head": "swimming",
                 "relation": "HasPrerequisite",
-                "tail": "moderately warm water"
+                "tail": "moderately warm water",
+                "latent": true
             },
             {
                 "head": "moderately warm water",
                 "relation": "Antonym",
-                "tail": "water isn't warm enough"
+                "tail": "water isn't warm enough",
+                "latent": true
             },
             {
                 "head": "hard it is to run on sand",
@@ -19216,12 +19544,14 @@
             {
                 "head": "sell music records",
                 "relation": "CausesDesire",
-                "tail": "Which one are you looking for"
+                "tail": "Which one are you looking for",
+                "latent": true
             },
             {
                 "head": "sell music records",
                 "relation": "HasPrerequisite",
-                "tail": "Which one are you looking for"
+                "tail": "Which one are you looking for",
+                "latent": true
             }
         ]
     },
@@ -19313,7 +19643,8 @@
             {
                 "head": "meeting someone after accident",
                 "relation": "Causes",
-                "tail": "making me feel better"
+                "tail": "making me feel better",
+                "latent": true
             },
             {
                 "head": "terrible accident",
@@ -19353,12 +19684,14 @@
             {
                 "head": "terrible accident",
                 "relation": "CapableOf",
-                "tail": "killing someone"
+                "tail": "killing someone",
+                "latent": true
             },
             {
                 "head": "killing someone",
                 "relation": "Antonym",
-                "tail": "be alive"
+                "tail": "be alive",
+                "latent": true
             },
             {
                 "head": "beautiful flowers",
@@ -19373,7 +19706,8 @@
             {
                 "head": "come to see me",
                 "relation": "Should",
-                "tail": "someone close had a terrible accident"
+                "tail": "someone close had a terrible accident",
+                "latent": true
             },
             {
                 "head": "beautiful flowers",
@@ -19383,7 +19717,8 @@
             {
                 "head": "meeting someone after accident",
                 "relation": "CausesDesire",
-                "tail": "beautiful flowers"
+                "tail": "beautiful flowers",
+                "latent": true
             },
             {
                 "head": "terrible accident",
@@ -19409,7 +19744,8 @@
             {
                 "head": "get there at least half an hour earlier",
                 "relation": "MotivatedByGoal",
-                "tail": "don't be stuck at queue"
+                "tail": "don't be stuck at queue",
+                "latent": true
             },
             {
                 "head": "opening show",
@@ -19450,17 +19786,20 @@
             {
                 "head": "get good grades in the test",
                 "relation": "Causes",
-                "tail": "get the support of my country"
+                "tail": "get the support of my country",
+                "latent": true
             },
             {
                 "head": "get the support of my country",
                 "relation": "CausesDesire",
-                "tail": "get good grades in the test"
+                "tail": "get good grades in the test",
+                "latent": true
             },
             {
                 "head": "studying night and day for the last week",
                 "relation": "MotivatedByGoal",
-                "tail": "get good grades in the test"
+                "tail": "get good grades in the test",
+                "latent": true
             },
             {
                 "head": "come to school an hour early",
@@ -19505,7 +19844,8 @@
             {
                 "head": "test",
                 "relation": "CausesDesire",
-                "tail": "get good grades in the test"
+                "tail": "get good grades in the test",
+                "latent": true
             },
             {
                 "head": "been learning it for two years",
@@ -19535,7 +19875,8 @@
             {
                 "head": "get good grades in the test",
                 "relation": "Synonym",
-                "tail": "get an A in this class"
+                "tail": "get an A in this class",
+                "latent": true
             }
         ]
     },
@@ -19622,7 +19963,8 @@
             {
                 "head": "study",
                 "relation": "MotivatedByGoal",
-                "tail": "do well in midterm exams"
+                "tail": "do well in midterm exams",
+                "latent": true
             },
             {
                 "head": "library",
@@ -19657,37 +19999,44 @@
             {
                 "head": "reach class in time",
                 "relation": "ObstructedBy",
-                "tail": "running late"
+                "tail": "running late",
+                "latent": true
             },
             {
                 "head": "need to hurry",
                 "relation": "MotivatedByGoal",
-                "tail": "reach class in time"
+                "tail": "reach class in time",
+                "latent": true
             },
             {
                 "head": "reach class in time",
                 "relation": "CausesDesire",
-                "tail": "need to hurry"
+                "tail": "need to hurry",
+                "latent": true
             },
             {
                 "head": "look for some important books",
                 "relation": "CausesDesire",
-                "tail": "go to the library"
+                "tail": "go to the library",
+                "latent": true
             },
             {
                 "head": "go to the library",
                 "relation": "MotivatedByGoal",
-                "tail": "look for some important books"
+                "tail": "look for some important books",
+                "latent": true
             },
             {
                 "head": "go to the library",
                 "relation": "MotivatedByGoal",
-                "tail": "study"
+                "tail": "study",
+                "latent": true
             },
             {
                 "head": "go to the library",
                 "relation": "MotivatedByGoal",
-                "tail": "return some books"
+                "tail": "return some books",
+                "latent": true
             },
             {
                 "head": "They are due today",
@@ -19697,42 +20046,50 @@
             {
                 "head": "have our midterm exams",
                 "relation": "CausesDesire",
-                "tail": "do well in midterm exams"
+                "tail": "do well in midterm exams",
+                "latent": true
             },
             {
                 "head": "return some books",
                 "relation": "CausesDesire",
-                "tail": "go to the library"
+                "tail": "go to the library",
+                "latent": true
             },
             {
                 "head": "study",
                 "relation": "CausesDesire",
-                "tail": "go to the library"
+                "tail": "go to the library",
+                "latent": true
             },
             {
                 "head": "Summer is approaching",
                 "relation": "CausesDesire",
-                "tail": "cool down and relax in water"
+                "tail": "cool down and relax in water",
+                "latent": true
             },
             {
                 "head": "Today's temperature has reached 35 degree Centigrade",
                 "relation": "CausesDesire",
-                "tail": "cool down and relax in water"
+                "tail": "cool down and relax in water",
+                "latent": true
             },
             {
                 "head": "go to the swimming pool",
                 "relation": "MotivatedByGoal",
-                "tail": "cool down and relax in water"
+                "tail": "cool down and relax in water",
+                "latent": true
             },
             {
                 "head": "cool down and relax in water",
                 "relation": "CausesDesire",
-                "tail": "go to the swimming pool"
+                "tail": "go to the swimming pool",
+                "latent": true
             },
             {
                 "head": "swimming pool",
                 "relation": "LocationOfAction",
-                "tail": "cool down and relax in water"
+                "tail": "cool down and relax in water",
+                "latent": true
             },
             {
                 "head": "swimming pool",
@@ -19742,7 +20099,8 @@
             {
                 "head": "swimming pool",
                 "relation": "UsedFor",
-                "tail": "cool down and relax in water"
+                "tail": "cool down and relax in water",
+                "latent": true
             }
         ]
     },
@@ -19834,17 +20192,20 @@
             {
                 "head": "have been studying a lot for my final exam",
                 "relation": "Causes",
-                "tail": "stay at home"
+                "tail": "stay at home",
+                "latent": true
             },
             {
                 "head": "stay at home",
                 "relation": "Causes",
-                "tail": "haven't seen you for a few weeks"
+                "tail": "haven't seen you for a few weeks",
+                "latent": true
             },
             {
                 "head": "stay at home",
                 "relation": "ResultIn",
-                "tail": "haven't seen you for a few weeks"
+                "tail": "haven't seen you for a few weeks",
+                "latent": true
             },
             {
                 "head": "have been studying a lot for my final exam",
@@ -19889,7 +20250,8 @@
             {
                 "head": "camping",
                 "relation": "MotivatedByGoal",
-                "tail": "save money"
+                "tail": "save money",
+                "latent": true
             },
             {
                 "head": "camping",
@@ -19899,22 +20261,26 @@
             {
                 "head": "save money",
                 "relation": "ObstructedBy",
-                "tail": "traveling is so expensive"
+                "tail": "traveling is so expensive",
+                "latent": true
             },
             {
                 "head": "cheaper than buying or staying at the hotel",
                 "relation": "Implies",
-                "tail": "save money"
+                "tail": "save money",
+                "latent": true
             },
             {
                 "head": "Here is my bus",
                 "relation": "Causes",
-                "tail": "got to leave now"
+                "tail": "got to leave now",
+                "latent": true
             },
             {
                 "head": "got to leave now",
                 "relation": "CausesDesire",
-                "tail": "talk to you about this again"
+                "tail": "talk to you about this again",
+                "latent": true
             }
         ]
     },
@@ -20006,12 +20372,14 @@
             {
                 "head": "It is only offered in the evening",
                 "relation": "CausesDesire",
-                "tail": "attend the course in evening"
+                "tail": "attend the course in evening",
+                "latent": true
             },
             {
                 "head": "attend the course in evening",
                 "relation": "ObstructedBy",
-                "tail": "work in the cafe every evening"
+                "tail": "work in the cafe every evening",
+                "latent": true
             },
             {
                 "head": "work in the cafe",
@@ -20041,7 +20409,8 @@
             {
                 "head": "ask someone that could switch hours with you",
                 "relation": "MotivatedByGoal",
-                "tail": "attend the course in evening"
+                "tail": "attend the course in evening",
+                "latent": true
             },
             {
                 "head": "ask someone that could switch hours with you",
@@ -20056,7 +20425,8 @@
             {
                 "head": "ask to change again",
                 "relation": "MotivatedByGoal",
-                "tail": "attend the course in evening"
+                "tail": "attend the course in evening",
+                "latent": true
             },
             {
                 "head": "ask someone that could switch hours with you",
@@ -20091,7 +20461,8 @@
             {
                 "head": "course during the day",
                 "relation": "Antonym",
-                "tail": "attend the course in evening"
+                "tail": "attend the course in evening",
+                "latent": true
             },
             {
                 "head": "starter course",
@@ -20202,12 +20573,14 @@
             {
                 "head": "offto the gym",
                 "relation": "HasPrerequisite",
-                "tail": "carry water and towel"
+                "tail": "carry water and towel",
+                "latent": true
             },
             {
                 "head": "big bag",
                 "relation": "UsedFor",
-                "tail": "carry water and towel to the gym"
+                "tail": "carry water and towel to the gym",
+                "latent": true
             },
             {
                 "head": "exercise",
@@ -20262,12 +20635,14 @@
             {
                 "head": "do exercise together",
                 "relation": "CausesDesire",
-                "tail": "join me at the gym"
+                "tail": "join me at the gym",
+                "latent": true
             },
             {
                 "head": "join me at the gym",
                 "relation": "MotivatedByGoal",
-                "tail": "do exercise together"
+                "tail": "do exercise together",
+                "latent": true
             }
         ]
     },
@@ -20343,22 +20718,26 @@
             {
                 "head": "studying a lot recently",
                 "relation": "MotivatedByGoal",
-                "tail": "do well in final exam"
+                "tail": "do well in final exam",
+                "latent": true
             },
             {
                 "head": "students hanging around the professor asking questions",
                 "relation": "MotivatedByGoal",
-                "tail": "do well in final exam"
+                "tail": "do well in final exam",
+                "latent": true
             },
             {
                 "head": "do well in final exam",
                 "relation": "CausesDesire",
-                "tail": "students hanging around the professor asking questions"
+                "tail": "students hanging around the professor asking questions",
+                "latent": true
             },
             {
                 "head": "do well in final exam",
                 "relation": "CausesDesire",
-                "tail": "studying a lot"
+                "tail": "studying a lot",
+                "latent": true
             },
             {
                 "head": "one month to go before the exam",
@@ -23206,12 +23585,14 @@
             {
                 "head": "learn how to play the piano",
                 "relation": "HasPrerequisite",
-                "tail": "buy one piano"
+                "tail": "buy one piano",
+                "latent": true
             },
             {
                 "head": "buy one piano",
                 "relation": "MotivatedByGoal",
-                "tail": "learn how to play the piano"
+                "tail": "learn how to play the piano",
+                "latent": true
             }
         ]
     },
@@ -23314,27 +23695,32 @@
             {
                 "head": "work while in college",
                 "relation": "HasPrerequisite",
-                "tail": "free time"
+                "tail": "free time",
+                "latent": true
             },
             {
                 "head": "too many classes to go",
                 "relation": "HasPrerequisite",
-                "tail": "free time"
+                "tail": "free time",
+                "latent": true
             },
             {
                 "head": "there are clubs",
                 "relation": "HasPrerequisite",
-                "tail": "free time"
+                "tail": "free time",
+                "latent": true
             },
             {
                 "head": "sports",
                 "relation": "HasPrerequisite",
-                "tail": "free time"
+                "tail": "free time",
+                "latent": true
             },
             {
                 "head": "after school activities",
                 "relation": "HasPrerequisite",
-                "tail": "free time"
+                "tail": "free time",
+                "latent": true
             },
             {
                 "head": "work while in college",
@@ -23447,12 +23833,14 @@
             {
                 "head": "focus",
                 "relation": "ObstructedBy",
-                "tail": "ad that appears suddenly on my computer screen"
+                "tail": "ad that appears suddenly on my computer screen",
+                "latent": true
             },
             {
                 "head": "started working on my paper",
                 "relation": "HasPrerequisite",
-                "tail": "focus"
+                "tail": "focus",
+                "latent": true
             },
             {
                 "head": "buy an app",
@@ -23544,7 +23932,8 @@
             {
                 "head": "let 's check in",
                 "relation": "Implies",
-                "tail": "They arrived at a hotel"
+                "tail": "They arrived at a hotel",
+                "latent": true
             }
         ]
     },
@@ -23560,7 +23949,8 @@
             {
                 "head": "skiing into the rocky mountains",
                 "relation": "Implies",
-                "tail": "dangerous"
+                "tail": "dangerous",
+                "latent": true
             },
             {
                 "head": "not that difficult",
@@ -23575,7 +23965,8 @@
             {
                 "head": "dangerous",
                 "relation": "Causes",
-                "tail": "fall"
+                "tail": "fall",
+                "latent": true
             }
         ]
     },
@@ -23607,17 +23998,20 @@
             {
                 "head": "keep healthy",
                 "relation": "ObstructedBy",
-                "tail": "working"
+                "tail": "working",
+                "latent": true
             },
             {
                 "head": "keep healthy",
                 "relation": "ObstructedBy",
-                "tail": "watching tv"
+                "tail": "watching tv",
+                "latent": true
             },
             {
                 "head": "exercising",
                 "relation": "MotivatedByGoal",
-                "tail": "keep healthy"
+                "tail": "keep healthy",
+                "latent": true
             },
             {
                 "head": "exercising",
@@ -23632,7 +24026,8 @@
             {
                 "head": "outdoor activities",
                 "relation": "MotivatedByGoal",
-                "tail": "keep healthy"
+                "tail": "keep healthy",
+                "latent": true
             }
         ]
     },
@@ -23741,12 +24136,14 @@
             {
                 "head": "free time",
                 "relation": "ObstructedBy",
-                "tail": "finish my math homework"
+                "tail": "finish my math homework",
+                "latent": true
             },
             {
                 "head": "free time",
                 "relation": "ObstructedBy",
-                "tail": "finish my math homework"
+                "tail": "finish my math homework",
+                "latent": true
             },
             {
                 "head": "finish my math homework",
@@ -23761,12 +24158,14 @@
             {
                 "head": "math homework due next tuesday",
                 "relation": "Implies",
-                "tail": "free time"
+                "tail": "free time",
+                "latent": true
             },
             {
                 "head": "Today",
                 "relation": "Before",
-                "tail": "next tuesday"
+                "tail": "next tuesday",
+                "latent": true
             }
         ]
     },
@@ -23880,12 +24279,14 @@
             {
                 "head": "take off in half an hour",
                 "relation": "Implies",
-                "tail": "not enough time"
+                "tail": "not enough time",
+                "latent": true
             },
             {
                 "head": "not enough time",
                 "relation": "Causes",
-                "tail": "read it through"
+                "tail": "read it through",
+                "latent": true
             }
         ]
     },
@@ -23963,7 +24364,8 @@
             {
                 "head": "doing anything tomorrow",
                 "relation": "Implies",
-                "tail": "not free"
+                "tail": "not free",
+                "latent": true
             },
             {
                 "head": "play tennis with lisa",
@@ -23973,12 +24375,14 @@
             {
                 "head": "watch the newest film with you",
                 "relation": "HasPrerequisite",
-                "tail": "free"
+                "tail": "free",
+                "latent": true
             },
             {
                 "head": "not free",
                 "relation": "Should",
-                "tail": "oh , sorry"
+                "tail": "oh , sorry",
+                "latent": true
             }
         ]
     },
@@ -24252,12 +24656,14 @@
             {
                 "head": "go to a university to find out",
                 "relation": "Implies",
-                "tail": "having an interview"
+                "tail": "having an interview",
+                "latent": true
             },
             {
                 "head": "having an interview",
                 "relation": "HasSubevent",
-                "tail": "can i ask you a few questions"
+                "tail": "can i ask you a few questions",
+                "latent": true
             },
             {
                 "head": "if i cook myself",
@@ -24474,7 +24880,8 @@
             {
                 "head": "hands are full",
                 "relation": "Implies",
-                "tail": "cannot help me with these books"
+                "tail": "cannot help me with these books",
+                "latent": true
             }
         ]
     },
@@ -24774,17 +25181,20 @@
             {
                 "head": "passport stolen",
                 "relation": "CausesDesire",
-                "tail": "visit the police station"
+                "tail": "visit the police station",
+                "latent": true
             },
             {
                 "head": "passport stolen",
                 "relation": "CausesDesire",
-                "tail": "report passport theft"
+                "tail": "report passport theft",
+                "latent": true
             },
             {
                 "head": "visit the police station",
                 "relation": "MotivatedByGoal",
-                "tail": "report passport theft"
+                "tail": "report passport theft",
+                "latent": true
             },
             {
                 "head": "bag was open",
@@ -24799,12 +25209,14 @@
             {
                 "head": "rushed back to the shop",
                 "relation": "MotivatedByGoal",
-                "tail": "find purse and passport"
+                "tail": "find purse and passport",
+                "latent": true
             },
             {
                 "head": "looked around outside shop",
                 "relation": "MotivatedByGoal",
-                "tail": "find purse and passport"
+                "tail": "find purse and passport",
+                "latent": true
             },
             {
                 "head": "bag was open",
@@ -24835,7 +25247,8 @@
             {
                 "head": "reference books",
                 "relation": "UsedFor",
-                "tail": "writing paper"
+                "tail": "writing paper",
+                "latent": true
             },
             {
                 "head": "interested in your paper",
@@ -25124,7 +25537,8 @@
             {
                 "head": "most of our customers are foreigners",
                 "relation": "Implies",
-                "tail": "speak spanish"
+                "tail": "speak spanish",
+                "latent": true
             }
         ]
     },
@@ -25198,7 +25612,8 @@
             {
                 "head": "lack batteries",
                 "relation": "Causes",
-                "tail": "remote does n't work"
+                "tail": "remote does n't work",
+                "latent": true
             },
             {
                 "head": "could n't change any of the functions on the display",
@@ -25300,7 +25715,8 @@
             {
                 "head": "buy a pair of sunglasses",
                 "relation": "CausesDesire",
-                "tail": "going shopping"
+                "tail": "going shopping",
+                "latent": true
             }
         ]
     },
@@ -25394,12 +25810,14 @@
             {
                 "head": "forgot my wallet",
                 "relation": "Implies",
-                "tail": "can't pay"
+                "tail": "can't pay",
+                "latent": true
             },
             {
                 "head": "pay for friends",
                 "relation": "Implies",
-                "tail": "generous"
+                "tail": "generous",
+                "latent": true
             }
         ]
     },
@@ -25649,7 +26067,8 @@
             {
                 "head": "The concert was good",
                 "relation": "Causes",
-                "tail": "it was worth every penny"
+                "tail": "it was worth every penny",
+                "latent": true
             },
             {
                 "head": "rained the whole time",
@@ -25659,7 +26078,8 @@
             {
                 "head": "The concert was good",
                 "relation": "Implies",
-                "tail": "a good weekend"
+                "tail": "a good weekend",
+                "latent": true
             }
         ]
     },
@@ -26488,7 +26908,8 @@
             {
                 "head": "have worked for busy organizations before",
                 "relation": "Implies",
-                "tail": "qualified"
+                "tail": "qualified",
+                "latent": true
             }
         ]
     },
@@ -27370,12 +27791,14 @@
             {
                 "head": "how about thursday and friday",
                 "relation": "ObstructedBy",
-                "tail": "not sure of availability"
+                "tail": "not sure of availability",
+                "latent": true
             },
             {
                 "head": "i do n't have the timetable on me",
                 "relation": "Causes",
-                "tail": "not sure of availability"
+                "tail": "not sure of availability",
+                "latent": true
             },
             {
                 "head": "be able to help out",
@@ -27480,17 +27903,20 @@
             {
                 "head": "take a look at this cd player",
                 "relation": "CausesDesire",
-                "tail": "buy cd player"
+                "tail": "buy cd player",
+                "latent": true
             },
             {
                 "head": "buy cd player",
                 "relation": "NotCausesDesire",
-                "tail": "i already have one"
+                "tail": "i already have one",
+                "latent": true
             },
             {
                 "head": "the handle is damaged",
                 "relation": "NotCausesDesire",
-                "tail": "buy cd player"
+                "tail": "buy cd player",
+                "latent": true
             }
         ]
     },
@@ -27511,7 +27937,8 @@
             {
                 "head": "my throat hurts . my nose has been running and i have a bad cough",
                 "relation": "Implies",
-                "tail": "cold"
+                "tail": "cold",
+                "latent": true
             },
             {
                 "head": "get some rest",
